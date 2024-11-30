@@ -1,137 +1,105 @@
 <!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+
   <head>
     <meta charset="utf-8">
-      <title>Class CartController | smartmenu </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CartController | smartmenu ">
-      
-      <meta name="description" content="Controller for handling cart operations">
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
-
-      <script type="module" src="./../public/docfx.min.js"></script>
-
-      <script>
-        const theme = localStorage.getItem('theme') || 'auto'
-        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-      </script>
-
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class CartController | SmartMenu - Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class CartController | SmartMenu - Documentation ">
+    
+    <meta name="description" content="Controller for handling cart operations">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="smartmenu">
-            smartmenu
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="smartmenu">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
               </form>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
 
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
           </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
         </div>
       </div>
+      <div role="main" class="container body-content hide-when-search">
 
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
         </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SmartMenu.Web.Controllers.CartController">
 
-        <article data-uid="SmartMenu.Web.Controllers.CartController">
 
 
-
-  <h1 id="SmartMenu_Web_Controllers_CartController" data-uid="SmartMenu.Web.Controllers.CartController" class="text-break">
-Class CartController  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L15"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="SmartMenu.html">SmartMenu</a>.<a class="xref" href="SmartMenu.Web.html">Web</a>.<a class="xref" href="SmartMenu.Web.Controllers.html">Controllers</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>SmartMenu.Web.dll</dd></dl>
-  </div>
-
-  <div class="markdown summary"><p>Controller for handling cart operations</p>
+  <h1 id="SmartMenu_Web_Controllers_CartController" data-uid="SmartMenu.Web.Controllers.CartController" class="text-break">Class CartController</h1>
+  <div class="markdown level0 summary"><p>Controller for handling cart operations</p>
 </div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CartController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable</code></pre>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controllerbase">ControllerBase</a></div>
+    <div class="level2"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></div>
+    <div class="level3"><span class="xref">CartController</span></div>
   </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controllerbase">ControllerBase</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></div>
-      <div><span class="xref">CartController</span></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iactionfilter">IActionFilter</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iasyncactionfilter">IAsyncActionFilter</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.ifiltermetadata">IFilterMetadata</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </dd>
-  </dl>
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iactionfilter">IActionFilter</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iasyncactionfilter">IAsyncActionFilter</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.ifiltermetadata">IFilterMetadata</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller.view#microsoft-aspnetcore-mvc-controller-view">Controller.View()</a>
     </div>
@@ -738,428 +706,537 @@ Class CartController  <a class="header-action link-secondary" title="View source
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SmartMenu.html">SmartMenu</a>.<a class="xref" href="SmartMenu.Web.html">Web</a>.<a class="xref" href="SmartMenu.Web.Controllers.html">Controllers</a></h6>
+  <h6><strong>Assembly</strong>: SmartMenu.Web.dll</h6>
+  <h5 id="SmartMenu_Web_Controllers_CartController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CartController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController__ctor_SmartMenu_Web_Service_IService_ICartService_SmartMenu_Web_Service_IService_IOrderService_SmartMenu_Web_Service_IService_IAuthService_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.%23ctor(SmartMenu.Web.Service.IService.ICartService%2CSmartMenu.Web.Service.IService.IOrderService%2CSmartMenu.Web.Service.IService.IAuthService)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L26">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController__ctor_" data-uid="SmartMenu.Web.Controllers.CartController.#ctor*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController__ctor_SmartMenu_Web_Service_IService_ICartService_SmartMenu_Web_Service_IService_IOrderService_SmartMenu_Web_Service_IService_IAuthService_" data-uid="SmartMenu.Web.Controllers.CartController.#ctor(SmartMenu.Web.Service.IService.ICartService,SmartMenu.Web.Service.IService.IOrderService,SmartMenu.Web.Service.IService.IAuthService)">
-  CartController(ICartService, IOrderService, IAuthService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L26"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController__ctor_SmartMenu_Web_Service_IService_ICartService_SmartMenu_Web_Service_IService_IOrderService_SmartMenu_Web_Service_IService_IAuthService_" data-uid="SmartMenu.Web.Controllers.CartController.#ctor(SmartMenu.Web.Service.IService.ICartService,SmartMenu.Web.Service.IService.IOrderService,SmartMenu.Web.Service.IService.IAuthService)">CartController(ICartService, IOrderService, IAuthService)</h4>
   <div class="markdown level1 summary"><p>Constructor for CartController</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public CartController(ICartService cartService, IOrderService orderService, IAuthService authService)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartService</code> <a class="xref" href="SmartMenu.Web.Service.IService.ICartService.html">ICartService</a></dt>
-    <dd><p>service for cart operations</p>
-</dd>
-    <dt><code>orderService</code> <a class="xref" href="SmartMenu.Web.Service.IService.IOrderService.html">IOrderService</a></dt>
-    <dd><p>service for order operations</p>
-</dd>
-    <dt><code>authService</code> <a class="xref" href="SmartMenu.Web.Service.IService.IAuthService.html">IAuthService</a></dt>
-    <dd><p>service for authentication operations</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Web.Service.IService.ICartService.html">ICartService</a></td>
+        <td><span class="parametername">cartService</span></td>
+        <td><p>service for cart operations</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Web.Service.IService.IOrderService.html">IOrderService</a></td>
+        <td><span class="parametername">orderService</span></td>
+        <td><p>service for order operations</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Web.Service.IService.IAuthService.html">IAuthService</a></td>
+        <td><span class="parametername">authService</span></td>
+        <td><p>service for authentication operations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_ApplyCoupon_SmartMenu_Web_Models_CartDto_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.ApplyCoupon(SmartMenu.Web.Models.CartDto)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L172">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_ApplyCoupon_" data-uid="SmartMenu.Web.Controllers.CartController.ApplyCoupon*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_ApplyCoupon_SmartMenu_Web_Models_CartDto_" data-uid="SmartMenu.Web.Controllers.CartController.ApplyCoupon(SmartMenu.Web.Models.CartDto)">
-  ApplyCoupon(CartDto)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L172"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_ApplyCoupon_SmartMenu_Web_Models_CartDto_" data-uid="SmartMenu.Web.Controllers.CartController.ApplyCoupon(SmartMenu.Web.Models.CartDto)">ApplyCoupon(CartDto)</h4>
   <div class="markdown level1 summary"><p>Post-method to apply a coupon</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost]
 public Task&lt;IActionResult&gt; ApplyCoupon(CartDto cartDto)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartDto</code> <a class="xref" href="SmartMenu.Web.Models.CartDto.html">CartDto</a></dt>
-    <dd><p>dto for the cart</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Web.Models.CartDto.html">CartDto</a></td>
+        <td><span class="parametername">cartDto</span></td>
+        <td><p>dto for the cart</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_CartIndex.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.CartIndex%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L36">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_CartIndex_" data-uid="SmartMenu.Web.Controllers.CartController.CartIndex*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_CartIndex" data-uid="SmartMenu.Web.Controllers.CartController.CartIndex">
-  CartIndex()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L36"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_CartIndex" data-uid="SmartMenu.Web.Controllers.CartController.CartIndex">CartIndex()</h4>
   <div class="markdown level1 summary"><p>Method to display the cart index</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 public Task&lt;IActionResult&gt; CartIndex()</code></pre>
   </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_Checkout.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.Checkout%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L46">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_Checkout_" data-uid="SmartMenu.Web.Controllers.CartController.Checkout*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_Checkout" data-uid="SmartMenu.Web.Controllers.CartController.Checkout">
-  Checkout()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L46"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_Checkout" data-uid="SmartMenu.Web.Controllers.CartController.Checkout">Checkout()</h4>
   <div class="markdown level1 summary"><p>Method to add a product to the cart</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 public Task&lt;IActionResult&gt; Checkout()</code></pre>
   </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_Checkout_SmartMenu_Web_Models_CartDto_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.Checkout(SmartMenu.Web.Models.CartDto)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L83">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_Checkout_" data-uid="SmartMenu.Web.Controllers.CartController.Checkout*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_Checkout_SmartMenu_Web_Models_CartDto_" data-uid="SmartMenu.Web.Controllers.CartController.Checkout(SmartMenu.Web.Models.CartDto)">
-  Checkout(CartDto)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L83"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_Checkout_SmartMenu_Web_Models_CartDto_" data-uid="SmartMenu.Web.Controllers.CartController.Checkout(SmartMenu.Web.Models.CartDto)">Checkout(CartDto)</h4>
   <div class="markdown level1 summary"><p>Post-method to checkout the cart</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost]
 [ActionName(&quot;Checkout&quot;)]
 public Task&lt;IActionResult&gt; Checkout(CartDto cartDto)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartDto</code> <a class="xref" href="SmartMenu.Web.Models.CartDto.html">CartDto</a></dt>
-    <dd><p>dto for the cart</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Web.Models.CartDto.html">CartDto</a></td>
+        <td><span class="parametername">cartDto</span></td>
+        <td><p>dto for the cart</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_Confirmation_System_Int32_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.Confirmation(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L134">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_Confirmation_" data-uid="SmartMenu.Web.Controllers.CartController.Confirmation*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_Confirmation_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.Confirmation(System.Int32)">
-  Confirmation(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L134"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_Confirmation_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.Confirmation(System.Int32)">Confirmation(int)</h4>
   <div class="markdown level1 summary"><p>Method to confirm the order</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Confirmation(int orderId)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>orderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>id of the order</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for confirmation</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">orderId</span></td>
+        <td><p>id of the order</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for confirmation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_DecreaseQuantity_System_Int32_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.DecreaseQuantity(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L265">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_DecreaseQuantity_" data-uid="SmartMenu.Web.Controllers.CartController.DecreaseQuantity*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_DecreaseQuantity_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.DecreaseQuantity(System.Int32)">
-  DecreaseQuantity(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L265"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_DecreaseQuantity_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.DecreaseQuantity(System.Int32)">DecreaseQuantity(int)</h4>
   <div class="markdown level1 summary"><p>Method to decrease the quantity of a product in the cart</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; DecreaseQuantity(int cartDetailsId)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartDetailsId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>id of the cart details</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cartDetailsId</span></td>
+        <td><p>id of the cart details</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_IncreaseQuantity_System_Int32_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.IncreaseQuantity(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L244">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_IncreaseQuantity_" data-uid="SmartMenu.Web.Controllers.CartController.IncreaseQuantity*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_IncreaseQuantity_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.IncreaseQuantity(System.Int32)">
-  IncreaseQuantity(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L244"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_IncreaseQuantity_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.IncreaseQuantity(System.Int32)">IncreaseQuantity(int)</h4>
   <div class="markdown level1 summary"><p>Method to increase the quantity of a product in the cart</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; IncreaseQuantity(int cartDetailsId)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartDetailsId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>id of the cart details</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cartDetailsId</span></td>
+        <td><p>id of the cart details</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_Remove_System_Int32_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.Remove(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L155">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_Remove_" data-uid="SmartMenu.Web.Controllers.CartController.Remove*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_Remove_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.Remove(System.Int32)">
-  Remove(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L155"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_Remove_System_Int32_" data-uid="SmartMenu.Web.Controllers.CartController.Remove(System.Int32)">Remove(int)</h4>
   <div class="markdown level1 summary"><p>Method to remove a product from the cart</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Remove(int cartDetailsId)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartDetailsId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>id of the cart details</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">cartDetailsId</span></td>
+        <td><p>id of the cart details</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController_RemoveCoupon_SmartMenu_Web_Models_CartDto_.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController.RemoveCoupon(SmartMenu.Web.Models.CartDto)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L225">View Source</a>
+  </span>
   <a id="SmartMenu_Web_Controllers_CartController_RemoveCoupon_" data-uid="SmartMenu.Web.Controllers.CartController.RemoveCoupon*"></a>
-
-  <h3 id="SmartMenu_Web_Controllers_CartController_RemoveCoupon_SmartMenu_Web_Models_CartDto_" data-uid="SmartMenu.Web.Controllers.CartController.RemoveCoupon(SmartMenu.Web.Models.CartDto)">
-  RemoveCoupon(CartDto)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L225"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Web_Controllers_CartController_RemoveCoupon_SmartMenu_Web_Models_CartDto_" data-uid="SmartMenu.Web.Controllers.CartController.RemoveCoupon(SmartMenu.Web.Models.CartDto)">RemoveCoupon(CartDto)</h4>
   <div class="markdown level1 summary"><p>Post-method to remove a coupon</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost]
 public Task&lt;IActionResult&gt; RemoveCoupon(CartDto cartDto)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartDto</code> <a class="xref" href="SmartMenu.Web.Models.CartDto.html">CartDto</a></dt>
-    <dd><p>dto for the cart</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd><p>returns the view for cart index</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Web.Models.CartDto.html">CartDto</a></td>
+        <td><span class="parametername">cartDto</span></td>
+        <td><p>dto for the cart</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</td>
+        <td><p>returns the view for cart index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iactionfilter">IActionFilter</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iasyncactionfilter">IAsyncActionFilter</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.ifiltermetadata">IFilterMetadata</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
 
 </article>
+          </div>
 
-        <div class="contribution d-print-none">
-          <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L15" class="edit-link">Edit this page</a>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Web_Controllers_CartController.md&amp;value=---%0Auid%3A%20SmartMenu.Web.Controllers.CartController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Web/Controllers/CartController.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
         </div>
-
-
       </div>
 
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

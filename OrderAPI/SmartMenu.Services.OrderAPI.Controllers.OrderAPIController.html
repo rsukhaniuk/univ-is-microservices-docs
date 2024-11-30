@@ -1,128 +1,96 @@
 <!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+
   <head>
     <meta charset="utf-8">
-      <title>Class OrderAPIController | smartmenu </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class OrderAPIController | smartmenu ">
-      
-      
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
-
-      <script type="module" src="./../public/docfx.min.js"></script>
-
-      <script>
-        const theme = localStorage.getItem('theme') || 'auto'
-        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-      </script>
-
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class OrderAPIController | SmartMenu - Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class OrderAPIController | SmartMenu - Documentation ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
   </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="smartmenu">
-            smartmenu
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="smartmenu">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
               </form>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
 
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
           </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
         </div>
       </div>
+      <div role="main" class="container body-content hide-when-search">
 
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
         </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController">
 
-        <article data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController">
 
 
-
-  <h1 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController" class="text-break">
-Class OrderAPIController  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L16"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="SmartMenu.html">SmartMenu</a>.<a class="xref" href="SmartMenu.Services.html">Services</a>.<a class="xref" href="SmartMenu.Services.OrderAPI.html">OrderAPI</a>.<a class="xref" href="SmartMenu.Services.OrderAPI.Controllers.html">Controllers</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>SmartMenu.Services.OrderAPI.dll</dd></dl>
+  <h1 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController" class="text-break">Class OrderAPIController</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controllerbase">ControllerBase</a></div>
+    <div class="level2"><span class="xref">OrderAPIController</span></div>
   </div>
-
-  <div class="markdown summary"></div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Route(&quot;api/order&quot;)]
-[ApiController]
-public class OrderAPIController : ControllerBase</code></pre>
-  </div>
-
-
-
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controllerbase">ControllerBase</a></div>
-      <div><span class="xref">OrderAPIController</span></div>
-    </dd>
-  </dl>
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controllerbase.statuscode#microsoft-aspnetcore-mvc-controllerbase-statuscode(system-int32)">ControllerBase.StatusCode(int)</a>
     </div>
@@ -663,369 +631,461 @@ public class OrderAPIController : ControllerBase</code></pre>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SmartMenu.html">SmartMenu</a>.<a class="xref" href="SmartMenu.Services.html">Services</a>.<a class="xref" href="SmartMenu.Services.OrderAPI.html">OrderAPI</a>.<a class="xref" href="SmartMenu.Services.OrderAPI.Controllers.html">Controllers</a></h6>
+  <h6><strong>Assembly</strong>: SmartMenu.Services.OrderAPI.dll</h6>
+  <h5 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Route(&quot;api/order&quot;)]
+[ApiController]
+public class OrderAPIController : ControllerBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController__ctor_SmartMenu_Services_OrderAPI_Data_AppDbContext_SmartMenu_Services_OrderAPI_Service_IService_IProductService_AutoMapper_IMapper_Microsoft_Extensions_Configuration_IConfiguration_.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.%23ctor(SmartMenu.Services.OrderAPI.Data.AppDbContext%2CSmartMenu.Services.OrderAPI.Service.IService.IProductService%2CAutoMapper.IMapper%2CMicrosoft.Extensions.Configuration.IConfiguration)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L33">View Source</a>
+  </span>
   <a id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController__ctor_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.#ctor*"></a>
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController__ctor_SmartMenu_Services_OrderAPI_Data_AppDbContext_SmartMenu_Services_OrderAPI_Service_IService_IProductService_AutoMapper_IMapper_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.#ctor(SmartMenu.Services.OrderAPI.Data.AppDbContext,SmartMenu.Services.OrderAPI.Service.IService.IProductService,AutoMapper.IMapper,Microsoft.Extensions.Configuration.IConfiguration)">
-  OrderAPIController(AppDbContext, IProductService, IMapper, IConfiguration)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L33"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController__ctor_SmartMenu_Services_OrderAPI_Data_AppDbContext_SmartMenu_Services_OrderAPI_Service_IService_IProductService_AutoMapper_IMapper_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.#ctor(SmartMenu.Services.OrderAPI.Data.AppDbContext,SmartMenu.Services.OrderAPI.Service.IService.IProductService,AutoMapper.IMapper,Microsoft.Extensions.Configuration.IConfiguration)">OrderAPIController(AppDbContext, IProductService, IMapper, IConfiguration)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.html">OrderAPIController</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public OrderAPIController(AppDbContext db, IProductService productService, IMapper mapper, IConfiguration configuration)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>db</code> <a class="xref" href="SmartMenu.Services.OrderAPI.Data.AppDbContext.html">AppDbContext</a></dt>
-    <dd><p>The database context.</p>
-</dd>
-    <dt><code>productService</code> <a class="xref" href="SmartMenu.Services.OrderAPI.Service.IService.IProductService.html">IProductService</a></dt>
-    <dd><p>The product service.</p>
-</dd>
-    <dt><code>mapper</code> <span class="xref">IMapper</span></dt>
-    <dd><p>The mapper.</p>
-</dd>
-    <dt><code>configuration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration">IConfiguration</a></dt>
-    <dd><p>The configuration.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController__response" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController._response">
-  _response
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Services.OrderAPI.Data.AppDbContext.html">AppDbContext</a></td>
+        <td><span class="parametername">db</span></td>
+        <td><p>The database context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Services.OrderAPI.Service.IService.IProductService.html">IProductService</a></td>
+        <td><span class="parametername">productService</span></td>
+        <td><p>The product service.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IMapper</span></td>
+        <td><span class="parametername">mapper</span></td>
+        <td><p>The mapper.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration">IConfiguration</a></td>
+        <td><span class="parametername">configuration</span></td>
+        <td><p>The configuration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController__response.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController._response%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L20">View Source</a>
+  </span>
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController__response" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController._response">_response</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected ResponseDto _response</code></pre>
   </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateOrder_SmartMenu_Services_OrderAPI_Models_Dto_CartDto_.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateOrder(SmartMenu.Services.OrderAPI.Models.Dto.CartDto)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L100">View Source</a>
+  </span>
   <a id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateOrder_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateOrder*"></a>
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateOrder_SmartMenu_Services_OrderAPI_Models_Dto_CartDto_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateOrder(SmartMenu.Services.OrderAPI.Models.Dto.CartDto)">
-  CreateOrder(CartDto)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L100"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateOrder_SmartMenu_Services_OrderAPI_Models_Dto_CartDto_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateOrder(SmartMenu.Services.OrderAPI.Models.Dto.CartDto)">CreateOrder(CartDto)</h4>
   <div class="markdown level1 summary"><p>Creates a new order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 [HttpPost(&quot;CreateOrder&quot;)]
 public Task&lt;ResponseDto&gt; CreateOrder(CartDto cartDto)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>cartDto</code> <a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.CartDto.html">CartDto</a></dt>
-    <dd><p>The cart data transfer object.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>The response containing the created order details.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.CartDto.html">CartDto</a></td>
+        <td><span class="parametername">cartDto</span></td>
+        <td><p>The cart data transfer object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</td>
+        <td><p>The response containing the created order details.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateStripeSession_SmartMenu_Services_OrderAPI_Models_Dto_StripeRequestDto_.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateStripeSession(SmartMenu.Services.OrderAPI.Models.Dto.StripeRequestDto)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L130">View Source</a>
+  </span>
   <a id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateStripeSession_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateStripeSession*"></a>
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateStripeSession_SmartMenu_Services_OrderAPI_Models_Dto_StripeRequestDto_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateStripeSession(SmartMenu.Services.OrderAPI.Models.Dto.StripeRequestDto)">
-  CreateStripeSession(StripeRequestDto)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L130"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_CreateStripeSession_SmartMenu_Services_OrderAPI_Models_Dto_StripeRequestDto_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.CreateStripeSession(SmartMenu.Services.OrderAPI.Models.Dto.StripeRequestDto)">CreateStripeSession(StripeRequestDto)</h4>
   <div class="markdown level1 summary"><p>Creates a Stripe session for payment.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 [HttpPost(&quot;CreateStripeSession&quot;)]
 public Task&lt;ResponseDto&gt; CreateStripeSession(StripeRequestDto stripeRequestDto)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>stripeRequestDto</code> <a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.StripeRequestDto.html">StripeRequestDto</a></dt>
-    <dd><p>The Stripe request data transfer object.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>The response containing the Stripe session details.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.StripeRequestDto.html">StripeRequestDto</a></td>
+        <td><span class="parametername">stripeRequestDto</span></td>
+        <td><p>The Stripe request data transfer object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</td>
+        <td><p>The response containing the Stripe session details.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_System_Int32_.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L78">View Source</a>
+  </span>
   <a id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get*"></a>
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_System_Int32_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get(System.Int32)">
-  Get(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L78"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_System_Int32_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get(System.Int32)">Get(int)</h4>
   <div class="markdown level1 summary"><p>Gets the order by ID.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 [HttpGet(&quot;GetOrder/{id:int}&quot;)]
 public ResponseDto? Get(int id)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The order ID.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a></dt>
-    <dd><p>The response containing the order details.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The order ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a></td>
+        <td><p>The response containing the order details.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_System_String_.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L48">View Source</a>
+  </span>
   <a id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get*"></a>
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_System_String_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get(System.String)">
-  Get(string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L48"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_Get_System_String_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.Get(System.String)">Get(string?)</h4>
   <div class="markdown level1 summary"><p>Gets the orders for the specified user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 [HttpGet(&quot;GetOrders&quot;)]
 public ResponseDto? Get(string? userId = &quot;&quot;)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The user ID.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a></dt>
-    <dd><p>The response containing the list of orders.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The user ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a></td>
+        <td><p>The response containing the list of orders.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_UpdateOrderStatus_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.UpdateOrderStatus(System.Int32%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L240">View Source</a>
+  </span>
   <a id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_UpdateOrderStatus_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.UpdateOrderStatus*"></a>
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_UpdateOrderStatus_System_Int32_System_String_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.UpdateOrderStatus(System.Int32,System.String)">
-  UpdateOrderStatus(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L240"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_UpdateOrderStatus_System_Int32_System_String_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.UpdateOrderStatus(System.Int32,System.String)">UpdateOrderStatus(int, string)</h4>
   <div class="markdown level1 summary"><p>Updates the status of an order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 [HttpPost(&quot;UpdateOrderStatus/{orderId:int}&quot;)]
 public Task&lt;ResponseDto&gt; UpdateOrderStatus(int orderId, string newStatus)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>orderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The order ID.</p>
-</dd>
-    <dt><code>newStatus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The new status.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>The response containing the update result.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">orderId</span></td>
+        <td><p>The order ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">newStatus</span></td>
+        <td><p>The new status.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</td>
+        <td><p>The response containing the update result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_ValidateStripeSession_System_Int32_.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.ValidateStripeSession(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L196">View Source</a>
+  </span>
   <a id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_ValidateStripeSession_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.ValidateStripeSession*"></a>
-
-  <h3 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_ValidateStripeSession_System_Int32_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.ValidateStripeSession(System.Int32)">
-  ValidateStripeSession(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L196"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="SmartMenu_Services_OrderAPI_Controllers_OrderAPIController_ValidateStripeSession_System_Int32_" data-uid="SmartMenu.Services.OrderAPI.Controllers.OrderAPIController.ValidateStripeSession(System.Int32)">ValidateStripeSession(int)</h4>
   <div class="markdown level1 summary"><p>Validates the Stripe session for payment.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Authorize]
 [HttpPost(&quot;ValidateStripeSession&quot;)]
 public Task&lt;ResponseDto&gt; ValidateStripeSession(int orderHeaderId)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>orderHeaderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The order header ID.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>The response containing the validation result.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">orderHeaderId</span></td>
+        <td><p>The order header ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.OrderAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</td>
+        <td><p>The response containing the validation result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
+          </div>
 
-        <div class="contribution d-print-none">
-          <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L16" class="edit-link">Edit this page</a>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/rsukhaniuk/univ-is-microservices/new/ocelot/apiSpec/new?filename=SmartMenu_Services_OrderAPI_Controllers_OrderAPIController.md&amp;value=---%0Auid%3A%20SmartMenu.Services.OrderAPI.Controllers.OrderAPIController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.OrderAPI/Controllers/OrderAPIController.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
         </div>
-
-
       </div>
 
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>
