@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.AuthAPI.Extensions
+  commentId: N:SmartMenu.Services.AuthAPI.Extensions
+  id: SmartMenu.Services.AuthAPI.Extensions
+  children:
+  - SmartMenu.Services.AuthAPI.Extensions.WebApplicationBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.AuthAPI.Extensions
+  nameWithType: SmartMenu.Services.AuthAPI.Extensions
+  fullName: SmartMenu.Services.AuthAPI.Extensions
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+references:
+- uid: SmartMenu.Services.AuthAPI.Extensions.WebApplicationBuilderExtensions
+  commentId: T:SmartMenu.Services.AuthAPI.Extensions.WebApplicationBuilderExtensions
+  href: SmartMenu.Services.AuthAPI.Extensions.WebApplicationBuilderExtensions.html
+  name: WebApplicationBuilderExtensions
+  nameWithType: WebApplicationBuilderExtensions
+  fullName: SmartMenu.Services.AuthAPI.Extensions.WebApplicationBuilderExtensions

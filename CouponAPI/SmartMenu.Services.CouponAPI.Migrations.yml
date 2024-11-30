@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.CouponAPI.Migrations
+  commentId: N:SmartMenu.Services.CouponAPI.Migrations
+  id: SmartMenu.Services.CouponAPI.Migrations
+  children:
+  - SmartMenu.Services.CouponAPI.Migrations.addCouponToDb
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.CouponAPI.Migrations
+  nameWithType: SmartMenu.Services.CouponAPI.Migrations
+  fullName: SmartMenu.Services.CouponAPI.Migrations
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.CouponAPI
+references:
+- uid: SmartMenu.Services.CouponAPI.Migrations.addCouponToDb
+  commentId: T:SmartMenu.Services.CouponAPI.Migrations.addCouponToDb
+  href: SmartMenu.Services.CouponAPI.Migrations.addCouponToDb.html
+  name: addCouponToDb
+  nameWithType: addCouponToDb
+  fullName: SmartMenu.Services.CouponAPI.Migrations.addCouponToDb

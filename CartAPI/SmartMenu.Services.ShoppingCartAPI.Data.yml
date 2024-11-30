@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ShoppingCartAPI.Data
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Data
+  id: SmartMenu.Services.ShoppingCartAPI.Data
+  children:
+  - SmartMenu.Services.ShoppingCartAPI.Data.AppDbContext
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ShoppingCartAPI.Data
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Data
+  fullName: SmartMenu.Services.ShoppingCartAPI.Data
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ShoppingCartAPI
+references:
+- uid: SmartMenu.Services.ShoppingCartAPI.Data.AppDbContext
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Data.AppDbContext
+  parent: SmartMenu.Services.ShoppingCartAPI.Data
+  href: SmartMenu.Services.ShoppingCartAPI.Data.AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: SmartMenu.Services.ShoppingCartAPI.Data.AppDbContext
+- uid: SmartMenu.Services.ShoppingCartAPI.Data
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Data
+  href: SmartMenu.html
+  name: SmartMenu.Services.ShoppingCartAPI.Data
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Data
+  fullName: SmartMenu.Services.ShoppingCartAPI.Data
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Data
+    name: Data
+    href: SmartMenu.Services.ShoppingCartAPI.Data.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Data
+    name: Data
+    href: SmartMenu.Services.ShoppingCartAPI.Data.html

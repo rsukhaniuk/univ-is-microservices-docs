@@ -1,0 +1,89 @@
+### YamlMime:TableOfContent
+items:
+- uid: SmartMenu.Services.AuthAPI.Controllers
+  name: SmartMenu.Services.AuthAPI.Controllers
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Controllers.AuthAPIController
+    name: AuthAPIController
+    type: Class
+- uid: SmartMenu.Services.AuthAPI.Data
+  name: SmartMenu.Services.AuthAPI.Data
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Data.AppDbContext
+    name: AppDbContext
+    type: Class
+- uid: SmartMenu.Services.AuthAPI.Extensions
+  name: SmartMenu.Services.AuthAPI.Extensions
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Extensions.WebApplicationBuilderExtensions
+    name: WebApplicationBuilderExtensions
+    type: Class
+- uid: SmartMenu.Services.AuthAPI.Migrations
+  name: SmartMenu.Services.AuthAPI.Migrations
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Migrations.AddNameToAspNetUsers
+    name: AddNameToAspNetUsers
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Migrations.addIDentityTables
+    name: addIDentityTables
+    type: Class
+- uid: SmartMenu.Services.AuthAPI.Models
+  name: SmartMenu.Services.AuthAPI.Models
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Models.ApplicationUser
+    name: ApplicationUser
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Models.JwtOptions
+    name: JwtOptions
+    type: Class
+- uid: SmartMenu.Services.AuthAPI.Models.Dto
+  name: SmartMenu.Services.AuthAPI.Models.Dto
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto
+    name: ChangePasswordDto
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto
+    name: EditAccountDto
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto
+    name: LoginRequestDto
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto
+    name: LoginResponseDto
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto
+    name: RegistrationRequestDto
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.ResponseDto
+    name: ResponseDto
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.UserDto
+    name: UserDto
+    type: Class
+- uid: SmartMenu.Services.AuthAPI.Service
+  name: SmartMenu.Services.AuthAPI.Service
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Service.AuthService
+    name: AuthService
+    type: Class
+  - uid: SmartMenu.Services.AuthAPI.Service.JwtTokenGenerator
+    name: JwtTokenGenerator
+    type: Class
+- uid: SmartMenu.Services.AuthAPI.Service.IService
+  name: SmartMenu.Services.AuthAPI.Service.IService
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+    name: IAuthService
+    type: Interface
+  - uid: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator
+    name: IJwtTokenGenerator
+    type: Interface
+memberLayout: SamePage

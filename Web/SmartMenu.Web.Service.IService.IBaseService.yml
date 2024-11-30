@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Service.IService.IBaseService
+  commentId: T:SmartMenu.Web.Service.IService.IBaseService
+  id: IBaseService
+  parent: SmartMenu.Web.Service.IService
+  children:
+  - SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IBaseService
+  nameWithType: IBaseService
+  fullName: SmartMenu.Web.Service.IService.IBaseService
+  type: Interface
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/IBaseService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: IBaseService
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/IBaseService.cs
+    startLine: 7
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Defines a base service for sending HTTP requests.
+  example: []
+  syntax:
+    content: public interface IBaseService
+    content.vb: Public Interface IBaseService
+- uid: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  commentId: M:SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  id: SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  parent: SmartMenu.Web.Service.IService.IBaseService
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(RequestDto, bool)
+  nameWithType: IBaseService.SendAsync(RequestDto, bool)
+  fullName: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto, bool)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/IBaseService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: SendAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/IBaseService.cs
+    startLine: 15
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Sends an asynchronous HTTP request.
+  example: []
+  syntax:
+    content: Task<ResponseDto?> SendAsync(RequestDto requestDto, bool withBearer = true)
+    parameters:
+    - id: requestDto
+      type: SmartMenu.Web.Models.RequestDto
+      description: The request data transfer object.
+    - id: withBearer
+      type: System.Boolean
+      description: Indicates whether to include a bearer token in the request.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Function SendAsync(requestDto As RequestDto, withBearer As Boolean = True) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.IService.IBaseService.SendAsync*
+  nameWithType.vb: IBaseService.SendAsync(RequestDto, Boolean)
+  fullName.vb: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto, Boolean)
+  name.vb: SendAsync(RequestDto, Boolean)
+references:
+- uid: SmartMenu.Web.Service.IService
+  commentId: N:SmartMenu.Web.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Web.Service.IService
+  nameWithType: SmartMenu.Web.Service.IService
+  fullName: SmartMenu.Web.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+- uid: SmartMenu.Web.Service.IService.IBaseService.SendAsync*
+  commentId: Overload:SmartMenu.Web.Service.IService.IBaseService.SendAsync
+  href: SmartMenu.Web.Service.IService.IBaseService.html#SmartMenu_Web_Service_IService_IBaseService_SendAsync_SmartMenu_Web_Models_RequestDto_System_Boolean_
+  name: SendAsync
+  nameWithType: IBaseService.SendAsync
+  fullName: SmartMenu.Web.Service.IService.IBaseService.SendAsync
+- uid: SmartMenu.Web.Models.RequestDto
+  commentId: T:SmartMenu.Web.Models.RequestDto
+  parent: SmartMenu.Web.Models
+  href: SmartMenu.Web.Models.RequestDto.html
+  name: RequestDto
+  nameWithType: RequestDto
+  fullName: SmartMenu.Web.Models.RequestDto
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  commentId: T:System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseDto>
+  nameWithType: Task<ResponseDto>
+  fullName: System.Threading.Tasks.Task<SmartMenu.Web.Models.ResponseDto>
+  nameWithType.vb: Task(Of ResponseDto)
+  fullName.vb: System.Threading.Tasks.Task(Of SmartMenu.Web.Models.ResponseDto)
+  name.vb: Task(Of ResponseDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: )
+- uid: SmartMenu.Web.Models
+  commentId: N:SmartMenu.Web.Models
+  href: SmartMenu.html
+  name: SmartMenu.Web.Models
+  nameWithType: SmartMenu.Web.Models
+  fullName: SmartMenu.Web.Models
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

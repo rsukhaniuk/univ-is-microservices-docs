@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Controllers
+  commentId: N:SmartMenu.Web.Controllers
+  id: SmartMenu.Web.Controllers
+  children:
+  - SmartMenu.Web.Controllers.AuthController
+  - SmartMenu.Web.Controllers.CartController
+  - SmartMenu.Web.Controllers.CategoryController
+  - SmartMenu.Web.Controllers.CouponController
+  - SmartMenu.Web.Controllers.HomeController
+  - SmartMenu.Web.Controllers.OrderController
+  - SmartMenu.Web.Controllers.ProductController
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Web.Controllers
+  nameWithType: SmartMenu.Web.Controllers
+  fullName: SmartMenu.Web.Controllers
+  type: Namespace
+  assemblies:
+  - SmartMenu.Web
+references:
+- uid: SmartMenu.Web.Controllers.AuthController
+  commentId: T:SmartMenu.Web.Controllers.AuthController
+  href: SmartMenu.Web.Controllers.AuthController.html
+  name: AuthController
+  nameWithType: AuthController
+  fullName: SmartMenu.Web.Controllers.AuthController
+- uid: SmartMenu.Web.Controllers.CartController
+  commentId: T:SmartMenu.Web.Controllers.CartController
+  href: SmartMenu.Web.Controllers.CartController.html
+  name: CartController
+  nameWithType: CartController
+  fullName: SmartMenu.Web.Controllers.CartController
+- uid: SmartMenu.Web.Controllers.CategoryController
+  commentId: T:SmartMenu.Web.Controllers.CategoryController
+  href: SmartMenu.Web.Controllers.CategoryController.html
+  name: CategoryController
+  nameWithType: CategoryController
+  fullName: SmartMenu.Web.Controllers.CategoryController
+- uid: SmartMenu.Web.Controllers.CouponController
+  commentId: T:SmartMenu.Web.Controllers.CouponController
+  href: SmartMenu.Web.Controllers.CouponController.html
+  name: CouponController
+  nameWithType: CouponController
+  fullName: SmartMenu.Web.Controllers.CouponController
+- uid: SmartMenu.Web.Controllers.HomeController
+  commentId: T:SmartMenu.Web.Controllers.HomeController
+  href: SmartMenu.Web.Controllers.HomeController.html
+  name: HomeController
+  nameWithType: HomeController
+  fullName: SmartMenu.Web.Controllers.HomeController
+- uid: SmartMenu.Web.Controllers.OrderController
+  commentId: T:SmartMenu.Web.Controllers.OrderController
+  href: SmartMenu.Web.Controllers.OrderController.html
+  name: OrderController
+  nameWithType: OrderController
+  fullName: SmartMenu.Web.Controllers.OrderController
+- uid: SmartMenu.Web.Controllers.ProductController
+  commentId: T:SmartMenu.Web.Controllers.ProductController
+  href: SmartMenu.Web.Controllers.ProductController.html
+  name: ProductController
+  nameWithType: ProductController
+  fullName: SmartMenu.Web.Controllers.ProductController

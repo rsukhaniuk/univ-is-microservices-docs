@@ -1,0 +1,67 @@
+### YamlMime:TableOfContent
+items:
+- uid: SmartMenu.Services.ProductAPI
+  name: SmartMenu.Services.ProductAPI
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.ProductAPI.MappingConfig
+    name: MappingConfig
+    type: Class
+- uid: SmartMenu.Services.ProductAPI.Controllers
+  name: SmartMenu.Services.ProductAPI.Controllers
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.ProductAPI.Controllers.CategoryAPIController
+    name: CategoryAPIController
+    type: Class
+  - uid: SmartMenu.Services.ProductAPI.Controllers.ProductAPIController
+    name: ProductAPIController
+    type: Class
+- uid: SmartMenu.Services.ProductAPI.Data
+  name: SmartMenu.Services.ProductAPI.Data
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.ProductAPI.Data.AppDbContext
+    name: AppDbContext
+    type: Class
+- uid: SmartMenu.Services.ProductAPI.Extensions
+  name: SmartMenu.Services.ProductAPI.Extensions
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.ProductAPI.Extensions.WebApplicationBuilderExtensions
+    name: WebApplicationBuilderExtensions
+    type: Class
+- uid: SmartMenu.Services.ProductAPI.Migrations
+  name: SmartMenu.Services.ProductAPI.Migrations
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.ProductAPI.Migrations.AddCategoryTable
+    name: AddCategoryTable
+    type: Class
+  - uid: SmartMenu.Services.ProductAPI.Migrations.SeedProductTable
+    name: SeedProductTable
+    type: Class
+- uid: SmartMenu.Services.ProductAPI.Models
+  name: SmartMenu.Services.ProductAPI.Models
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.ProductAPI.Models.Category
+    name: Category
+    type: Class
+  - uid: SmartMenu.Services.ProductAPI.Models.Product
+    name: Product
+    type: Class
+- uid: SmartMenu.Services.ProductAPI.Models.Dto
+  name: SmartMenu.Services.ProductAPI.Models.Dto
+  type: Namespace
+  items:
+  - uid: SmartMenu.Services.ProductAPI.Models.Dto.CategoryDto
+    name: CategoryDto
+    type: Class
+  - uid: SmartMenu.Services.ProductAPI.Models.Dto.ProductDto
+    name: ProductDto
+    type: Class
+  - uid: SmartMenu.Services.ProductAPI.Models.Dto.ResponseDto
+    name: ResponseDto
+    type: Class
+memberLayout: SamePage

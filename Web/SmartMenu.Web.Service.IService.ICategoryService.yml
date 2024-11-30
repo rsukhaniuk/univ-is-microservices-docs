@@ -1,0 +1,434 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Service.IService.ICategoryService
+  commentId: T:SmartMenu.Web.Service.IService.ICategoryService
+  id: ICategoryService
+  parent: SmartMenu.Web.Service.IService
+  children:
+  - SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  - SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync(System.Int32)
+  - SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync
+  - SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync(System.Int32)
+  - SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  langs:
+  - csharp
+  - vb
+  name: ICategoryService
+  nameWithType: ICategoryService
+  fullName: SmartMenu.Web.Service.IService.ICategoryService
+  type: Interface
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ICategoryService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: ICategoryService
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ICategoryService.cs
+    startLine: 7
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Defines methods for managing categories.
+  example: []
+  syntax:
+    content: public interface ICategoryService
+    content.vb: Public Interface ICategoryService
+- uid: SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync
+  commentId: M:SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync
+  id: GetAllCategoriesAsync
+  parent: SmartMenu.Web.Service.IService.ICategoryService
+  langs:
+  - csharp
+  - vb
+  name: GetAllCategoriesAsync()
+  nameWithType: ICategoryService.GetAllCategoriesAsync()
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync()
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ICategoryService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetAllCategoriesAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ICategoryService.cs
+    startLine: 13
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Gets all categories.
+  example: []
+  syntax:
+    content: Task<ResponseDto?> GetAllCategoriesAsync()
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Function GetAllCategoriesAsync() As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync*
+- uid: SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync(System.Int32)
+  commentId: M:SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync(System.Int32)
+  id: GetCategoryByIdAsync(System.Int32)
+  parent: SmartMenu.Web.Service.IService.ICategoryService
+  langs:
+  - csharp
+  - vb
+  name: GetCategoryByIdAsync(int)
+  nameWithType: ICategoryService.GetCategoryByIdAsync(int)
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync(int)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ICategoryService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetCategoryByIdAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ICategoryService.cs
+    startLine: 20
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Gets a category by its ID.
+  example: []
+  syntax:
+    content: Task<ResponseDto?> GetCategoryByIdAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The category ID.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Function GetCategoryByIdAsync(id As Integer) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync*
+  nameWithType.vb: ICategoryService.GetCategoryByIdAsync(Integer)
+  fullName.vb: SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync(Integer)
+  name.vb: GetCategoryByIdAsync(Integer)
+- uid: SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  commentId: M:SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  id: CreateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  parent: SmartMenu.Web.Service.IService.ICategoryService
+  langs:
+  - csharp
+  - vb
+  name: CreateCategoryAsync(CategoryDto)
+  nameWithType: ICategoryService.CreateCategoryAsync(CategoryDto)
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ICategoryService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: CreateCategoryAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ICategoryService.cs
+    startLine: 27
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Creates a new category.
+  example: []
+  syntax:
+    content: Task<ResponseDto?> CreateCategoryAsync(CategoryDto categoryDto)
+    parameters:
+    - id: categoryDto
+      type: SmartMenu.Web.Models.CategoryDto
+      description: The category data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Function CreateCategoryAsync(categoryDto As CategoryDto) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync*
+- uid: SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  commentId: M:SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  id: UpdateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  parent: SmartMenu.Web.Service.IService.ICategoryService
+  langs:
+  - csharp
+  - vb
+  name: UpdateCategoryAsync(CategoryDto)
+  nameWithType: ICategoryService.UpdateCategoryAsync(CategoryDto)
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync(SmartMenu.Web.Models.CategoryDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ICategoryService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: UpdateCategoryAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ICategoryService.cs
+    startLine: 34
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Updates an existing category.
+  example: []
+  syntax:
+    content: Task<ResponseDto?> UpdateCategoryAsync(CategoryDto categoryDto)
+    parameters:
+    - id: categoryDto
+      type: SmartMenu.Web.Models.CategoryDto
+      description: The category data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Function UpdateCategoryAsync(categoryDto As CategoryDto) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync*
+- uid: SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync(System.Int32)
+  commentId: M:SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync(System.Int32)
+  id: DeleteCategoryAsync(System.Int32)
+  parent: SmartMenu.Web.Service.IService.ICategoryService
+  langs:
+  - csharp
+  - vb
+  name: DeleteCategoryAsync(int)
+  nameWithType: ICategoryService.DeleteCategoryAsync(int)
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync(int)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ICategoryService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: DeleteCategoryAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ICategoryService.cs
+    startLine: 41
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Deletes a category by its ID.
+  example: []
+  syntax:
+    content: Task<ResponseDto?> DeleteCategoryAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The category ID.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Function DeleteCategoryAsync(id As Integer) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync*
+  nameWithType.vb: ICategoryService.DeleteCategoryAsync(Integer)
+  fullName.vb: SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync(Integer)
+  name.vb: DeleteCategoryAsync(Integer)
+references:
+- uid: SmartMenu.Web.Service.IService
+  commentId: N:SmartMenu.Web.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Web.Service.IService
+  nameWithType: SmartMenu.Web.Service.IService
+  fullName: SmartMenu.Web.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+- uid: SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync*
+  commentId: Overload:SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync
+  href: SmartMenu.Web.Service.IService.ICategoryService.html#SmartMenu_Web_Service_IService_ICategoryService_GetAllCategoriesAsync
+  name: GetAllCategoriesAsync
+  nameWithType: ICategoryService.GetAllCategoriesAsync
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.GetAllCategoriesAsync
+- uid: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  commentId: T:System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseDto>
+  nameWithType: Task<ResponseDto>
+  fullName: System.Threading.Tasks.Task<SmartMenu.Web.Models.ResponseDto>
+  nameWithType.vb: Task(Of ResponseDto)
+  fullName.vb: System.Threading.Tasks.Task(Of SmartMenu.Web.Models.ResponseDto)
+  name.vb: Task(Of ResponseDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync*
+  commentId: Overload:SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync
+  href: SmartMenu.Web.Service.IService.ICategoryService.html#SmartMenu_Web_Service_IService_ICategoryService_GetCategoryByIdAsync_System_Int32_
+  name: GetCategoryByIdAsync
+  nameWithType: ICategoryService.GetCategoryByIdAsync
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.GetCategoryByIdAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync*
+  commentId: Overload:SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync
+  href: SmartMenu.Web.Service.IService.ICategoryService.html#SmartMenu_Web_Service_IService_ICategoryService_CreateCategoryAsync_SmartMenu_Web_Models_CategoryDto_
+  name: CreateCategoryAsync
+  nameWithType: ICategoryService.CreateCategoryAsync
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.CreateCategoryAsync
+- uid: SmartMenu.Web.Models.CategoryDto
+  commentId: T:SmartMenu.Web.Models.CategoryDto
+  parent: SmartMenu.Web.Models
+  href: SmartMenu.Web.Models.CategoryDto.html
+  name: CategoryDto
+  nameWithType: CategoryDto
+  fullName: SmartMenu.Web.Models.CategoryDto
+- uid: SmartMenu.Web.Models
+  commentId: N:SmartMenu.Web.Models
+  href: SmartMenu.html
+  name: SmartMenu.Web.Models
+  nameWithType: SmartMenu.Web.Models
+  fullName: SmartMenu.Web.Models
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+- uid: SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync*
+  commentId: Overload:SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync
+  href: SmartMenu.Web.Service.IService.ICategoryService.html#SmartMenu_Web_Service_IService_ICategoryService_UpdateCategoryAsync_SmartMenu_Web_Models_CategoryDto_
+  name: UpdateCategoryAsync
+  nameWithType: ICategoryService.UpdateCategoryAsync
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.UpdateCategoryAsync
+- uid: SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync*
+  commentId: Overload:SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync
+  href: SmartMenu.Web.Service.IService.ICategoryService.html#SmartMenu_Web_Service_IService_ICategoryService_DeleteCategoryAsync_System_Int32_
+  name: DeleteCategoryAsync
+  nameWithType: ICategoryService.DeleteCategoryAsync
+  fullName: SmartMenu.Web.Service.IService.ICategoryService.DeleteCategoryAsync

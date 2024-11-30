@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ProductAPI
+  commentId: N:SmartMenu.Services.ProductAPI
+  id: SmartMenu.Services.ProductAPI
+  children:
+  - SmartMenu.Services.ProductAPI.MappingConfig
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ProductAPI
+  nameWithType: SmartMenu.Services.ProductAPI
+  fullName: SmartMenu.Services.ProductAPI
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ProductAPI
+references:
+- uid: SmartMenu.Services.ProductAPI.MappingConfig
+  commentId: T:SmartMenu.Services.ProductAPI.MappingConfig
+  href: SmartMenu.Services.ProductAPI.MappingConfig.html
+  name: MappingConfig
+  nameWithType: MappingConfig
+  fullName: SmartMenu.Services.ProductAPI.MappingConfig

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.AuthAPI.Controllers
+  commentId: N:SmartMenu.Services.AuthAPI.Controllers
+  id: SmartMenu.Services.AuthAPI.Controllers
+  children:
+  - SmartMenu.Services.AuthAPI.Controllers.AuthAPIController
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.AuthAPI.Controllers
+  nameWithType: SmartMenu.Services.AuthAPI.Controllers
+  fullName: SmartMenu.Services.AuthAPI.Controllers
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+references:
+- uid: SmartMenu.Services.AuthAPI.Controllers.AuthAPIController
+  commentId: T:SmartMenu.Services.AuthAPI.Controllers.AuthAPIController
+  href: SmartMenu.Services.AuthAPI.Controllers.AuthAPIController.html
+  name: AuthAPIController
+  nameWithType: AuthAPIController
+  fullName: SmartMenu.Services.AuthAPI.Controllers.AuthAPIController

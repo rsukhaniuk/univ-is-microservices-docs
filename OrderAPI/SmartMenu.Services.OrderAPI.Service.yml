@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.OrderAPI.Service
+  commentId: N:SmartMenu.Services.OrderAPI.Service
+  id: SmartMenu.Services.OrderAPI.Service
+  children:
+  - SmartMenu.Services.OrderAPI.Service.ProductService
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.OrderAPI.Service
+  nameWithType: SmartMenu.Services.OrderAPI.Service
+  fullName: SmartMenu.Services.OrderAPI.Service
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.OrderAPI
+references:
+- uid: SmartMenu.Services.OrderAPI.Service.ProductService
+  commentId: T:SmartMenu.Services.OrderAPI.Service.ProductService
+  href: SmartMenu.Services.OrderAPI.Service.ProductService.html
+  name: ProductService
+  nameWithType: ProductService
+  fullName: SmartMenu.Services.OrderAPI.Service.ProductService

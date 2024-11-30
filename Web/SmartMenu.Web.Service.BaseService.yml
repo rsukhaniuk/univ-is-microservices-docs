@@ -1,0 +1,698 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Service.BaseService
+  commentId: T:SmartMenu.Web.Service.BaseService
+  id: BaseService
+  parent: SmartMenu.Web.Service
+  children:
+  - SmartMenu.Web.Service.BaseService.#ctor(System.Net.Http.IHttpClientFactory,SmartMenu.Web.Service.IService.ITokenProvider)
+  - SmartMenu.Web.Service.BaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: BaseService
+  nameWithType: BaseService
+  fullName: SmartMenu.Web.Service.BaseService
+  type: Class
+  source:
+    remote:
+      path: SmartMenu.Web/Service/BaseService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: BaseService
+    path: ../SmartMenu/SmartMenu.Web/Service/BaseService.cs
+    startLine: 12
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Provides base functionality for sending HTTP requests.
+  example: []
+  syntax:
+    content: 'public class BaseService : IBaseService'
+    content.vb: Public Class BaseService Implements IBaseService
+  inheritance:
+  - System.Object
+  implements:
+  - SmartMenu.Web.Service.IService.IBaseService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SmartMenu.Web.Service.BaseService.#ctor(System.Net.Http.IHttpClientFactory,SmartMenu.Web.Service.IService.ITokenProvider)
+  commentId: M:SmartMenu.Web.Service.BaseService.#ctor(System.Net.Http.IHttpClientFactory,SmartMenu.Web.Service.IService.ITokenProvider)
+  id: '#ctor(System.Net.Http.IHttpClientFactory,SmartMenu.Web.Service.IService.ITokenProvider)'
+  parent: SmartMenu.Web.Service.BaseService
+  langs:
+  - csharp
+  - vb
+  name: BaseService(IHttpClientFactory, ITokenProvider)
+  nameWithType: BaseService.BaseService(IHttpClientFactory, ITokenProvider)
+  fullName: SmartMenu.Web.Service.BaseService.BaseService(System.Net.Http.IHttpClientFactory, SmartMenu.Web.Service.IService.ITokenProvider)
+  type: Constructor
+  source:
+    remote:
+      path: SmartMenu.Web/Service/BaseService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: .ctor
+    path: ../SmartMenu/SmartMenu.Web/Service/BaseService.cs
+    startLine: 22
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Initializes a new instance of the <xref href="SmartMenu.Web.Service.BaseService" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public BaseService(IHttpClientFactory httpClientFactory, ITokenProvider tokenProvider)
+    parameters:
+    - id: httpClientFactory
+      type: System.Net.Http.IHttpClientFactory
+      description: The HTTP client factory.
+    - id: tokenProvider
+      type: SmartMenu.Web.Service.IService.ITokenProvider
+      description: The token provider.
+    content.vb: Public Sub New(httpClientFactory As IHttpClientFactory, tokenProvider As ITokenProvider)
+  overload: SmartMenu.Web.Service.BaseService.#ctor*
+  nameWithType.vb: BaseService.New(IHttpClientFactory, ITokenProvider)
+  fullName.vb: SmartMenu.Web.Service.BaseService.New(System.Net.Http.IHttpClientFactory, SmartMenu.Web.Service.IService.ITokenProvider)
+  name.vb: New(IHttpClientFactory, ITokenProvider)
+- uid: SmartMenu.Web.Service.BaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  commentId: M:SmartMenu.Web.Service.BaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  id: SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  parent: SmartMenu.Web.Service.BaseService
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(RequestDto, bool)
+  nameWithType: BaseService.SendAsync(RequestDto, bool)
+  fullName: SmartMenu.Web.Service.BaseService.SendAsync(SmartMenu.Web.Models.RequestDto, bool)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/BaseService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: SendAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/BaseService.cs
+    startLine: 34
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Sends an HTTP request asynchronously.
+  example: []
+  syntax:
+    content: public Task<ResponseDto?> SendAsync(RequestDto requestDto, bool withBearer = true)
+    parameters:
+    - id: requestDto
+      type: SmartMenu.Web.Models.RequestDto
+      description: The request data transfer object.
+    - id: withBearer
+      type: System.Boolean
+      description: Indicates whether to include a bearer token in the request.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Public Function SendAsync(requestDto As RequestDto, withBearer As Boolean = True) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.BaseService.SendAsync*
+  implements:
+  - SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  nameWithType.vb: BaseService.SendAsync(RequestDto, Boolean)
+  fullName.vb: SmartMenu.Web.Service.BaseService.SendAsync(SmartMenu.Web.Models.RequestDto, Boolean)
+  name.vb: SendAsync(RequestDto, Boolean)
+references:
+- uid: SmartMenu.Web.Service
+  commentId: N:SmartMenu.Web.Service
+  href: SmartMenu.html
+  name: SmartMenu.Web.Service
+  nameWithType: SmartMenu.Web.Service
+  fullName: SmartMenu.Web.Service
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SmartMenu.Web.Service.IService.IBaseService
+  commentId: T:SmartMenu.Web.Service.IService.IBaseService
+  parent: SmartMenu.Web.Service.IService
+  href: SmartMenu.Web.Service.IService.IBaseService.html
+  name: IBaseService
+  nameWithType: IBaseService
+  fullName: SmartMenu.Web.Service.IService.IBaseService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SmartMenu.Web.Service.IService
+  commentId: N:SmartMenu.Web.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Web.Service.IService
+  nameWithType: SmartMenu.Web.Service.IService
+  fullName: SmartMenu.Web.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+- uid: SmartMenu.Web.Service.BaseService
+  commentId: T:SmartMenu.Web.Service.BaseService
+  href: SmartMenu.Web.Service.BaseService.html
+  name: BaseService
+  nameWithType: BaseService
+  fullName: SmartMenu.Web.Service.BaseService
+- uid: SmartMenu.Web.Service.BaseService.#ctor*
+  commentId: Overload:SmartMenu.Web.Service.BaseService.#ctor
+  href: SmartMenu.Web.Service.BaseService.html#SmartMenu_Web_Service_BaseService__ctor_System_Net_Http_IHttpClientFactory_SmartMenu_Web_Service_IService_ITokenProvider_
+  name: BaseService
+  nameWithType: BaseService.BaseService
+  fullName: SmartMenu.Web.Service.BaseService.BaseService
+  nameWithType.vb: BaseService.New
+  fullName.vb: SmartMenu.Web.Service.BaseService.New
+  name.vb: New
+- uid: System.Net.Http.IHttpClientFactory
+  commentId: T:System.Net.Http.IHttpClientFactory
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.ihttpclientfactory
+  name: IHttpClientFactory
+  nameWithType: IHttpClientFactory
+  fullName: System.Net.Http.IHttpClientFactory
+- uid: SmartMenu.Web.Service.IService.ITokenProvider
+  commentId: T:SmartMenu.Web.Service.IService.ITokenProvider
+  parent: SmartMenu.Web.Service.IService
+  href: SmartMenu.Web.Service.IService.ITokenProvider.html
+  name: ITokenProvider
+  nameWithType: ITokenProvider
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: SmartMenu.Web.Service.BaseService.SendAsync*
+  commentId: Overload:SmartMenu.Web.Service.BaseService.SendAsync
+  href: SmartMenu.Web.Service.BaseService.html#SmartMenu_Web_Service_BaseService_SendAsync_SmartMenu_Web_Models_RequestDto_System_Boolean_
+  name: SendAsync
+  nameWithType: BaseService.SendAsync
+  fullName: SmartMenu.Web.Service.BaseService.SendAsync
+- uid: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  commentId: M:SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+  parent: SmartMenu.Web.Service.IService.IBaseService
+  isExternal: true
+  href: SmartMenu.Web.Service.IService.IBaseService.html#SmartMenu_Web_Service_IService_IBaseService_SendAsync_SmartMenu_Web_Models_RequestDto_System_Boolean_
+  name: SendAsync(RequestDto, bool)
+  nameWithType: IBaseService.SendAsync(RequestDto, bool)
+  fullName: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto, bool)
+  nameWithType.vb: IBaseService.SendAsync(RequestDto, Boolean)
+  fullName.vb: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto, Boolean)
+  name.vb: SendAsync(RequestDto, Boolean)
+  spec.csharp:
+  - uid: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+    name: SendAsync
+    href: SmartMenu.Web.Service.IService.IBaseService.html#SmartMenu_Web_Service_IService_IBaseService_SendAsync_SmartMenu_Web_Models_RequestDto_System_Boolean_
+  - name: (
+  - uid: SmartMenu.Web.Models.RequestDto
+    name: RequestDto
+    href: SmartMenu.Web.Models.RequestDto.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Web.Service.IService.IBaseService.SendAsync(SmartMenu.Web.Models.RequestDto,System.Boolean)
+    name: SendAsync
+    href: SmartMenu.Web.Service.IService.IBaseService.html#SmartMenu_Web_Service_IService_IBaseService_SendAsync_SmartMenu_Web_Models_RequestDto_System_Boolean_
+  - name: (
+  - uid: SmartMenu.Web.Models.RequestDto
+    name: RequestDto
+    href: SmartMenu.Web.Models.RequestDto.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SmartMenu.Web.Models.RequestDto
+  commentId: T:SmartMenu.Web.Models.RequestDto
+  parent: SmartMenu.Web.Models
+  href: SmartMenu.Web.Models.RequestDto.html
+  name: RequestDto
+  nameWithType: RequestDto
+  fullName: SmartMenu.Web.Models.RequestDto
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  commentId: T:System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseDto>
+  nameWithType: Task<ResponseDto>
+  fullName: System.Threading.Tasks.Task<SmartMenu.Web.Models.ResponseDto>
+  nameWithType.vb: Task(Of ResponseDto)
+  fullName.vb: System.Threading.Tasks.Task(Of SmartMenu.Web.Models.ResponseDto)
+  name.vb: Task(Of ResponseDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: )
+- uid: SmartMenu.Web.Models
+  commentId: N:SmartMenu.Web.Models
+  href: SmartMenu.html
+  name: SmartMenu.Web.Models
+  nameWithType: SmartMenu.Web.Models
+  fullName: SmartMenu.Web.Models
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

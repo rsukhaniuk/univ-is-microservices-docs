@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.AuthAPI.Migrations
+  commentId: N:SmartMenu.Services.AuthAPI.Migrations
+  id: SmartMenu.Services.AuthAPI.Migrations
+  children:
+  - SmartMenu.Services.AuthAPI.Migrations.AddNameToAspNetUsers
+  - SmartMenu.Services.AuthAPI.Migrations.addIDentityTables
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.AuthAPI.Migrations
+  nameWithType: SmartMenu.Services.AuthAPI.Migrations
+  fullName: SmartMenu.Services.AuthAPI.Migrations
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+references:
+- uid: SmartMenu.Services.AuthAPI.Migrations.addIDentityTables
+  commentId: T:SmartMenu.Services.AuthAPI.Migrations.addIDentityTables
+  href: SmartMenu.Services.AuthAPI.Migrations.addIDentityTables.html
+  name: addIDentityTables
+  nameWithType: addIDentityTables
+  fullName: SmartMenu.Services.AuthAPI.Migrations.addIDentityTables
+- uid: SmartMenu.Services.AuthAPI.Migrations.AddNameToAspNetUsers
+  commentId: T:SmartMenu.Services.AuthAPI.Migrations.AddNameToAspNetUsers
+  href: SmartMenu.Services.AuthAPI.Migrations.AddNameToAspNetUsers.html
+  name: AddNameToAspNetUsers
+  nameWithType: AddNameToAspNetUsers
+  fullName: SmartMenu.Services.AuthAPI.Migrations.AddNameToAspNetUsers

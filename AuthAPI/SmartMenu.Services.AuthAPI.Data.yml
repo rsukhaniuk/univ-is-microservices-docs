@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.AuthAPI.Data
+  commentId: N:SmartMenu.Services.AuthAPI.Data
+  id: SmartMenu.Services.AuthAPI.Data
+  children:
+  - SmartMenu.Services.AuthAPI.Data.AppDbContext
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.AuthAPI.Data
+  nameWithType: SmartMenu.Services.AuthAPI.Data
+  fullName: SmartMenu.Services.AuthAPI.Data
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+references:
+- uid: SmartMenu.Services.AuthAPI.Data.AppDbContext
+  commentId: T:SmartMenu.Services.AuthAPI.Data.AppDbContext
+  parent: SmartMenu.Services.AuthAPI.Data
+  href: SmartMenu.Services.AuthAPI.Data.AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: SmartMenu.Services.AuthAPI.Data.AppDbContext
+- uid: SmartMenu.Services.AuthAPI.Data
+  commentId: N:SmartMenu.Services.AuthAPI.Data
+  href: SmartMenu.html
+  name: SmartMenu.Services.AuthAPI.Data
+  nameWithType: SmartMenu.Services.AuthAPI.Data
+  fullName: SmartMenu.Services.AuthAPI.Data
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Data
+    name: Data
+    href: SmartMenu.Services.AuthAPI.Data.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Data
+    name: Data
+    href: SmartMenu.Services.AuthAPI.Data.html

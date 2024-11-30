@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ShoppingCartAPI.Service
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Service
+  id: SmartMenu.Services.ShoppingCartAPI.Service
+  children:
+  - SmartMenu.Services.ShoppingCartAPI.Service.CouponService
+  - SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ShoppingCartAPI.Service
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Service
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ShoppingCartAPI
+references:
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.CouponService
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Service.CouponService
+  href: SmartMenu.Services.ShoppingCartAPI.Service.CouponService.html
+  name: CouponService
+  nameWithType: CouponService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.CouponService
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  href: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.html
+  name: ProductService
+  nameWithType: ProductService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.ProductService

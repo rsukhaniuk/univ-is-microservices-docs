@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.CouponAPI.Data
+  commentId: N:SmartMenu.Services.CouponAPI.Data
+  id: SmartMenu.Services.CouponAPI.Data
+  children:
+  - SmartMenu.Services.CouponAPI.Data.AppDbContext
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.CouponAPI.Data
+  nameWithType: SmartMenu.Services.CouponAPI.Data
+  fullName: SmartMenu.Services.CouponAPI.Data
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.CouponAPI
+references:
+- uid: SmartMenu.Services.CouponAPI.Data.AppDbContext
+  commentId: T:SmartMenu.Services.CouponAPI.Data.AppDbContext
+  parent: SmartMenu.Services.CouponAPI.Data
+  href: SmartMenu.Services.CouponAPI.Data.AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: SmartMenu.Services.CouponAPI.Data.AppDbContext
+- uid: SmartMenu.Services.CouponAPI.Data
+  commentId: N:SmartMenu.Services.CouponAPI.Data
+  href: SmartMenu.html
+  name: SmartMenu.Services.CouponAPI.Data
+  nameWithType: SmartMenu.Services.CouponAPI.Data
+  fullName: SmartMenu.Services.CouponAPI.Data
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.CouponAPI
+    name: CouponAPI
+    href: SmartMenu.Services.CouponAPI.html
+  - name: .
+  - uid: SmartMenu.Services.CouponAPI.Data
+    name: Data
+    href: SmartMenu.Services.CouponAPI.Data.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.CouponAPI
+    name: CouponAPI
+    href: SmartMenu.Services.CouponAPI.html
+  - name: .
+  - uid: SmartMenu.Services.CouponAPI.Data
+    name: Data
+    href: SmartMenu.Services.CouponAPI.Data.html

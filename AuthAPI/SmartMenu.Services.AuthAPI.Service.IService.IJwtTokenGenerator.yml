@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator
+  commentId: T:SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator
+  id: IJwtTokenGenerator
+  parent: SmartMenu.Services.AuthAPI.Service.IService
+  children:
+  - SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken(SmartMenu.Services.AuthAPI.Models.ApplicationUser,System.Collections.Generic.IEnumerable{System.String})
+  langs:
+  - csharp
+  - vb
+  name: IJwtTokenGenerator
+  nameWithType: IJwtTokenGenerator
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator
+  type: Interface
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IJwtTokenGenerator.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: IJwtTokenGenerator
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IJwtTokenGenerator.cs
+    startLine: 7
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Interface for generating JWT tokens.
+  example: []
+  syntax:
+    content: public interface IJwtTokenGenerator
+    content.vb: Public Interface IJwtTokenGenerator
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken(SmartMenu.Services.AuthAPI.Models.ApplicationUser,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken(SmartMenu.Services.AuthAPI.Models.ApplicationUser,System.Collections.Generic.IEnumerable{System.String})
+  id: GenerateToken(SmartMenu.Services.AuthAPI.Models.ApplicationUser,System.Collections.Generic.IEnumerable{System.String})
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator
+  langs:
+  - csharp
+  - vb
+  name: GenerateToken(ApplicationUser, IEnumerable<string>)
+  nameWithType: IJwtTokenGenerator.GenerateToken(ApplicationUser, IEnumerable<string>)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken(SmartMenu.Services.AuthAPI.Models.ApplicationUser, System.Collections.Generic.IEnumerable<string>)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IJwtTokenGenerator.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GenerateToken
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IJwtTokenGenerator.cs
+    startLine: 15
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Generates a JWT token for the specified user and roles.
+  example: []
+  syntax:
+    content: string GenerateToken(ApplicationUser applicationUser, IEnumerable<string> roles)
+    parameters:
+    - id: applicationUser
+      type: SmartMenu.Services.AuthAPI.Models.ApplicationUser
+      description: The application user.
+    - id: roles
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The roles of the user.
+    return:
+      type: System.String
+      description: The generated JWT token.
+    content.vb: Function GenerateToken(applicationUser As ApplicationUser, roles As IEnumerable(Of String)) As String
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken*
+  nameWithType.vb: IJwtTokenGenerator.GenerateToken(ApplicationUser, IEnumerable(Of String))
+  fullName.vb: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken(SmartMenu.Services.AuthAPI.Models.ApplicationUser, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GenerateToken(ApplicationUser, IEnumerable(Of String))
+references:
+- uid: SmartMenu.Services.AuthAPI.Service.IService
+  commentId: N:SmartMenu.Services.AuthAPI.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Services.AuthAPI.Service.IService
+  nameWithType: SmartMenu.Services.AuthAPI.Service.IService
+  fullName: SmartMenu.Services.AuthAPI.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service
+    name: Service
+    href: SmartMenu.Services.AuthAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.AuthAPI.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service
+    name: Service
+    href: SmartMenu.Services.AuthAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.AuthAPI.Service.IService.html
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken
+  href: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.html#SmartMenu_Services_AuthAPI_Service_IService_IJwtTokenGenerator_GenerateToken_SmartMenu_Services_AuthAPI_Models_ApplicationUser_System_Collections_Generic_IEnumerable_System_String__
+  name: GenerateToken
+  nameWithType: IJwtTokenGenerator.GenerateToken
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IJwtTokenGenerator.GenerateToken
+- uid: SmartMenu.Services.AuthAPI.Models.ApplicationUser
+  commentId: T:SmartMenu.Services.AuthAPI.Models.ApplicationUser
+  parent: SmartMenu.Services.AuthAPI.Models
+  href: SmartMenu.Services.AuthAPI.Models.ApplicationUser.html
+  name: ApplicationUser
+  nameWithType: ApplicationUser
+  fullName: SmartMenu.Services.AuthAPI.Models.ApplicationUser
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SmartMenu.Services.AuthAPI.Models
+  commentId: N:SmartMenu.Services.AuthAPI.Models
+  href: SmartMenu.html
+  name: SmartMenu.Services.AuthAPI.Models
+  nameWithType: SmartMenu.Services.AuthAPI.Models
+  fullName: SmartMenu.Services.AuthAPI.Models
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Models
+    name: Models
+    href: SmartMenu.Services.AuthAPI.Models.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Models
+    name: Models
+    href: SmartMenu.Services.AuthAPI.Models.html
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

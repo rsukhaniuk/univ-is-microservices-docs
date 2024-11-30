@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ProductAPI.Controllers
+  commentId: N:SmartMenu.Services.ProductAPI.Controllers
+  id: SmartMenu.Services.ProductAPI.Controllers
+  children:
+  - SmartMenu.Services.ProductAPI.Controllers.CategoryAPIController
+  - SmartMenu.Services.ProductAPI.Controllers.ProductAPIController
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ProductAPI.Controllers
+  nameWithType: SmartMenu.Services.ProductAPI.Controllers
+  fullName: SmartMenu.Services.ProductAPI.Controllers
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ProductAPI
+references:
+- uid: SmartMenu.Services.ProductAPI.Controllers.CategoryAPIController
+  commentId: T:SmartMenu.Services.ProductAPI.Controllers.CategoryAPIController
+  href: SmartMenu.Services.ProductAPI.Controllers.CategoryAPIController.html
+  name: CategoryAPIController
+  nameWithType: CategoryAPIController
+  fullName: SmartMenu.Services.ProductAPI.Controllers.CategoryAPIController
+- uid: SmartMenu.Services.ProductAPI.Controllers.ProductAPIController
+  commentId: T:SmartMenu.Services.ProductAPI.Controllers.ProductAPIController
+  href: SmartMenu.Services.ProductAPI.Controllers.ProductAPIController.html
+  name: ProductAPIController
+  nameWithType: ProductAPIController
+  fullName: SmartMenu.Services.ProductAPI.Controllers.ProductAPIController

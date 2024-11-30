@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Service.IService.ITokenProvider
+  commentId: T:SmartMenu.Web.Service.IService.ITokenProvider
+  id: ITokenProvider
+  parent: SmartMenu.Web.Service.IService
+  children:
+  - SmartMenu.Web.Service.IService.ITokenProvider.ClearToken
+  - SmartMenu.Web.Service.IService.ITokenProvider.GetToken
+  - SmartMenu.Web.Service.IService.ITokenProvider.SetToken(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ITokenProvider
+  nameWithType: ITokenProvider
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider
+  type: Interface
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ITokenProvider.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: ITokenProvider
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ITokenProvider.cs
+    startLine: 5
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Defines methods for managing authentication tokens.
+  example: []
+  syntax:
+    content: public interface ITokenProvider
+    content.vb: Public Interface ITokenProvider
+- uid: SmartMenu.Web.Service.IService.ITokenProvider.SetToken(System.String)
+  commentId: M:SmartMenu.Web.Service.IService.ITokenProvider.SetToken(System.String)
+  id: SetToken(System.String)
+  parent: SmartMenu.Web.Service.IService.ITokenProvider
+  langs:
+  - csharp
+  - vb
+  name: SetToken(string)
+  nameWithType: ITokenProvider.SetToken(string)
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider.SetToken(string)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ITokenProvider.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: SetToken
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ITokenProvider.cs
+    startLine: 11
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Sets the authentication token.
+  example: []
+  syntax:
+    content: void SetToken(string token)
+    parameters:
+    - id: token
+      type: System.String
+      description: The authentication token.
+    content.vb: Sub SetToken(token As String)
+  overload: SmartMenu.Web.Service.IService.ITokenProvider.SetToken*
+  nameWithType.vb: ITokenProvider.SetToken(String)
+  fullName.vb: SmartMenu.Web.Service.IService.ITokenProvider.SetToken(String)
+  name.vb: SetToken(String)
+- uid: SmartMenu.Web.Service.IService.ITokenProvider.GetToken
+  commentId: M:SmartMenu.Web.Service.IService.ITokenProvider.GetToken
+  id: GetToken
+  parent: SmartMenu.Web.Service.IService.ITokenProvider
+  langs:
+  - csharp
+  - vb
+  name: GetToken()
+  nameWithType: ITokenProvider.GetToken()
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider.GetToken()
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ITokenProvider.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetToken
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ITokenProvider.cs
+    startLine: 17
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Gets the authentication token.
+  example: []
+  syntax:
+    content: string? GetToken()
+    return:
+      type: System.String
+      description: The authentication token, or null if no token is set.
+    content.vb: Function GetToken() As String
+  overload: SmartMenu.Web.Service.IService.ITokenProvider.GetToken*
+- uid: SmartMenu.Web.Service.IService.ITokenProvider.ClearToken
+  commentId: M:SmartMenu.Web.Service.IService.ITokenProvider.ClearToken
+  id: ClearToken
+  parent: SmartMenu.Web.Service.IService.ITokenProvider
+  langs:
+  - csharp
+  - vb
+  name: ClearToken()
+  nameWithType: ITokenProvider.ClearToken()
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider.ClearToken()
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/IService/ITokenProvider.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: ClearToken
+    path: ../SmartMenu/SmartMenu.Web/Service/IService/ITokenProvider.cs
+    startLine: 22
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service.IService
+  summary: Clears the authentication token.
+  example: []
+  syntax:
+    content: void ClearToken()
+    content.vb: Sub ClearToken()
+  overload: SmartMenu.Web.Service.IService.ITokenProvider.ClearToken*
+references:
+- uid: SmartMenu.Web.Service.IService
+  commentId: N:SmartMenu.Web.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Web.Service.IService
+  nameWithType: SmartMenu.Web.Service.IService
+  fullName: SmartMenu.Web.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+- uid: SmartMenu.Web.Service.IService.ITokenProvider.SetToken*
+  commentId: Overload:SmartMenu.Web.Service.IService.ITokenProvider.SetToken
+  href: SmartMenu.Web.Service.IService.ITokenProvider.html#SmartMenu_Web_Service_IService_ITokenProvider_SetToken_System_String_
+  name: SetToken
+  nameWithType: ITokenProvider.SetToken
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider.SetToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SmartMenu.Web.Service.IService.ITokenProvider.GetToken*
+  commentId: Overload:SmartMenu.Web.Service.IService.ITokenProvider.GetToken
+  href: SmartMenu.Web.Service.IService.ITokenProvider.html#SmartMenu_Web_Service_IService_ITokenProvider_GetToken
+  name: GetToken
+  nameWithType: ITokenProvider.GetToken
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider.GetToken
+- uid: SmartMenu.Web.Service.IService.ITokenProvider.ClearToken*
+  commentId: Overload:SmartMenu.Web.Service.IService.ITokenProvider.ClearToken
+  href: SmartMenu.Web.Service.IService.ITokenProvider.html#SmartMenu_Web_Service_IService_ITokenProvider_ClearToken
+  name: ClearToken
+  nameWithType: ITokenProvider.ClearToken
+  fullName: SmartMenu.Web.Service.IService.ITokenProvider.ClearToken

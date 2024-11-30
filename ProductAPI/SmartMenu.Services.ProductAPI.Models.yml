@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ProductAPI.Models
+  commentId: N:SmartMenu.Services.ProductAPI.Models
+  id: SmartMenu.Services.ProductAPI.Models
+  children:
+  - SmartMenu.Services.ProductAPI.Models.Category
+  - SmartMenu.Services.ProductAPI.Models.Product
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ProductAPI.Models
+  nameWithType: SmartMenu.Services.ProductAPI.Models
+  fullName: SmartMenu.Services.ProductAPI.Models
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ProductAPI
+references:
+- uid: SmartMenu.Services.ProductAPI.Models.Category
+  commentId: T:SmartMenu.Services.ProductAPI.Models.Category
+  parent: SmartMenu.Services.ProductAPI.Models
+  href: SmartMenu.Services.ProductAPI.Models.Category.html
+  name: Category
+  nameWithType: Category
+  fullName: SmartMenu.Services.ProductAPI.Models.Category
+- uid: SmartMenu.Services.ProductAPI.Models.Product
+  commentId: T:SmartMenu.Services.ProductAPI.Models.Product
+  href: SmartMenu.Services.ProductAPI.Models.Product.html
+  name: Product
+  nameWithType: Product
+  fullName: SmartMenu.Services.ProductAPI.Models.Product
+- uid: SmartMenu.Services.ProductAPI.Models
+  commentId: N:SmartMenu.Services.ProductAPI.Models
+  href: SmartMenu.html
+  name: SmartMenu.Services.ProductAPI.Models
+  nameWithType: SmartMenu.Services.ProductAPI.Models
+  fullName: SmartMenu.Services.ProductAPI.Models
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI
+    name: ProductAPI
+    href: SmartMenu.Services.ProductAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI.Models
+    name: Models
+    href: SmartMenu.Services.ProductAPI.Models.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI
+    name: ProductAPI
+    href: SmartMenu.Services.ProductAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI.Models
+    name: Models
+    href: SmartMenu.Services.ProductAPI.Models.html

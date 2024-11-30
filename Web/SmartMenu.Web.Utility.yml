@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Utility
+  commentId: N:SmartMenu.Web.Utility
+  id: SmartMenu.Web.Utility
+  children:
+  - SmartMenu.Web.Utility.AllowedExtensionsAttribute
+  - SmartMenu.Web.Utility.MaxFileSizeAttribute
+  - SmartMenu.Web.Utility.SD
+  - SmartMenu.Web.Utility.SD.ApiType
+  - SmartMenu.Web.Utility.SD.ContentType
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Web.Utility
+  nameWithType: SmartMenu.Web.Utility
+  fullName: SmartMenu.Web.Utility
+  type: Namespace
+  assemblies:
+  - SmartMenu.Web
+references:
+- uid: SmartMenu.Web.Utility.AllowedExtensionsAttribute
+  commentId: T:SmartMenu.Web.Utility.AllowedExtensionsAttribute
+  parent: SmartMenu.Web.Utility
+  href: SmartMenu.Web.Utility.AllowedExtensionsAttribute.html
+  name: AllowedExtensionsAttribute
+  nameWithType: AllowedExtensionsAttribute
+  fullName: SmartMenu.Web.Utility.AllowedExtensionsAttribute
+- uid: SmartMenu.Web.Utility.MaxFileSizeAttribute
+  commentId: T:SmartMenu.Web.Utility.MaxFileSizeAttribute
+  parent: SmartMenu.Web.Utility
+  href: SmartMenu.Web.Utility.MaxFileSizeAttribute.html
+  name: MaxFileSizeAttribute
+  nameWithType: MaxFileSizeAttribute
+  fullName: SmartMenu.Web.Utility.MaxFileSizeAttribute
+- uid: SmartMenu.Web.Utility.SD
+  commentId: T:SmartMenu.Web.Utility.SD
+  href: SmartMenu.Web.Utility.SD.html
+  name: SD
+  nameWithType: SD
+  fullName: SmartMenu.Web.Utility.SD
+- uid: SmartMenu.Web.Utility.SD.ApiType
+  commentId: T:SmartMenu.Web.Utility.SD.ApiType
+  parent: SmartMenu.Web.Utility
+  href: SmartMenu.Web.Utility.SD.html
+  name: SD.ApiType
+  nameWithType: SD.ApiType
+  fullName: SmartMenu.Web.Utility.SD.ApiType
+  spec.csharp:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ApiType
+    name: ApiType
+    href: SmartMenu.Web.Utility.SD.ApiType.html
+  spec.vb:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ApiType
+    name: ApiType
+    href: SmartMenu.Web.Utility.SD.ApiType.html
+- uid: SmartMenu.Web.Utility.SD.ContentType
+  commentId: T:SmartMenu.Web.Utility.SD.ContentType
+  parent: SmartMenu.Web.Utility
+  href: SmartMenu.Web.Utility.SD.html
+  name: SD.ContentType
+  nameWithType: SD.ContentType
+  fullName: SmartMenu.Web.Utility.SD.ContentType
+  spec.csharp:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ContentType
+    name: ContentType
+    href: SmartMenu.Web.Utility.SD.ContentType.html
+  spec.vb:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ContentType
+    name: ContentType
+    href: SmartMenu.Web.Utility.SD.ContentType.html
+- uid: SmartMenu.Web.Utility
+  commentId: N:SmartMenu.Web.Utility
+  href: SmartMenu.html
+  name: SmartMenu.Web.Utility
+  nameWithType: SmartMenu.Web.Utility
+  fullName: SmartMenu.Web.Utility
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Utility
+    name: Utility
+    href: SmartMenu.Web.Utility.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Utility
+    name: Utility
+    href: SmartMenu.Web.Utility.html

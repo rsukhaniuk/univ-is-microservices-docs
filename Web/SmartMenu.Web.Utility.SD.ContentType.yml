@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Utility.SD.ContentType
+  commentId: T:SmartMenu.Web.Utility.SD.ContentType
+  id: SD.ContentType
+  parent: SmartMenu.Web.Utility
+  children:
+  - SmartMenu.Web.Utility.SD.ContentType.Json
+  - SmartMenu.Web.Utility.SD.ContentType.MultipartFormData
+  langs:
+  - csharp
+  - vb
+  name: SD.ContentType
+  nameWithType: SD.ContentType
+  fullName: SmartMenu.Web.Utility.SD.ContentType
+  type: Enum
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: ContentType
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 106
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Defines the types of content.
+  example: []
+  syntax:
+    content: public enum SD.ContentType
+    content.vb: Public Enum SD.ContentType
+- uid: SmartMenu.Web.Utility.SD.ContentType.Json
+  commentId: F:SmartMenu.Web.Utility.SD.ContentType.Json
+  id: Json
+  parent: SmartMenu.Web.Utility.SD.ContentType
+  langs:
+  - csharp
+  - vb
+  name: Json
+  nameWithType: SD.ContentType.Json
+  fullName: SmartMenu.Web.Utility.SD.ContentType.Json
+  type: Field
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: Json
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 111
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Represents JSON content type.
+  example: []
+  syntax:
+    content: Json = 0
+    return:
+      type: SmartMenu.Web.Utility.SD.ContentType
+- uid: SmartMenu.Web.Utility.SD.ContentType.MultipartFormData
+  commentId: F:SmartMenu.Web.Utility.SD.ContentType.MultipartFormData
+  id: MultipartFormData
+  parent: SmartMenu.Web.Utility.SD.ContentType
+  langs:
+  - csharp
+  - vb
+  name: MultipartFormData
+  nameWithType: SD.ContentType.MultipartFormData
+  fullName: SmartMenu.Web.Utility.SD.ContentType.MultipartFormData
+  type: Field
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: MultipartFormData
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 116
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Represents multipart/form-data content type.
+  example: []
+  syntax:
+    content: MultipartFormData = 1
+    return:
+      type: SmartMenu.Web.Utility.SD.ContentType
+references:
+- uid: SmartMenu.Web.Utility
+  commentId: N:SmartMenu.Web.Utility
+  href: SmartMenu.html
+  name: SmartMenu.Web.Utility
+  nameWithType: SmartMenu.Web.Utility
+  fullName: SmartMenu.Web.Utility
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Utility
+    name: Utility
+    href: SmartMenu.Web.Utility.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Utility
+    name: Utility
+    href: SmartMenu.Web.Utility.html
+- uid: SmartMenu.Web.Utility.SD.ContentType
+  commentId: T:SmartMenu.Web.Utility.SD.ContentType
+  parent: SmartMenu.Web.Utility
+  href: SmartMenu.Web.Utility.SD.html
+  name: SD.ContentType
+  nameWithType: SD.ContentType
+  fullName: SmartMenu.Web.Utility.SD.ContentType
+  spec.csharp:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ContentType
+    name: ContentType
+    href: SmartMenu.Web.Utility.SD.ContentType.html
+  spec.vb:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ContentType
+    name: ContentType
+    href: SmartMenu.Web.Utility.SD.ContentType.html

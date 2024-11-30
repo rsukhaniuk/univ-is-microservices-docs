@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.CouponAPI
+  commentId: N:SmartMenu.Services.CouponAPI
+  id: SmartMenu.Services.CouponAPI
+  children:
+  - SmartMenu.Services.CouponAPI.MappingConfig
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.CouponAPI
+  nameWithType: SmartMenu.Services.CouponAPI
+  fullName: SmartMenu.Services.CouponAPI
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.CouponAPI
+references:
+- uid: SmartMenu.Services.CouponAPI.MappingConfig
+  commentId: T:SmartMenu.Services.CouponAPI.MappingConfig
+  href: SmartMenu.Services.CouponAPI.MappingConfig.html
+  name: MappingConfig
+  nameWithType: MappingConfig
+  fullName: SmartMenu.Services.CouponAPI.MappingConfig

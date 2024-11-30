@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Service
+  commentId: N:SmartMenu.Web.Service
+  id: SmartMenu.Web.Service
+  children:
+  - SmartMenu.Web.Service.AuthService
+  - SmartMenu.Web.Service.BaseService
+  - SmartMenu.Web.Service.CartService
+  - SmartMenu.Web.Service.CategoryService
+  - SmartMenu.Web.Service.CouponService
+  - SmartMenu.Web.Service.OrderService
+  - SmartMenu.Web.Service.ProductService
+  - SmartMenu.Web.Service.TokenProvider
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Web.Service
+  nameWithType: SmartMenu.Web.Service
+  fullName: SmartMenu.Web.Service
+  type: Namespace
+  assemblies:
+  - SmartMenu.Web
+references:
+- uid: SmartMenu.Web.Service.AuthService
+  commentId: T:SmartMenu.Web.Service.AuthService
+  href: SmartMenu.Web.Service.AuthService.html
+  name: AuthService
+  nameWithType: AuthService
+  fullName: SmartMenu.Web.Service.AuthService
+- uid: SmartMenu.Web.Service.BaseService
+  commentId: T:SmartMenu.Web.Service.BaseService
+  href: SmartMenu.Web.Service.BaseService.html
+  name: BaseService
+  nameWithType: BaseService
+  fullName: SmartMenu.Web.Service.BaseService
+- uid: SmartMenu.Web.Service.CartService
+  commentId: T:SmartMenu.Web.Service.CartService
+  href: SmartMenu.Web.Service.CartService.html
+  name: CartService
+  nameWithType: CartService
+  fullName: SmartMenu.Web.Service.CartService
+- uid: SmartMenu.Web.Service.CategoryService
+  commentId: T:SmartMenu.Web.Service.CategoryService
+  href: SmartMenu.Web.Service.CategoryService.html
+  name: CategoryService
+  nameWithType: CategoryService
+  fullName: SmartMenu.Web.Service.CategoryService
+- uid: SmartMenu.Web.Service.CouponService
+  commentId: T:SmartMenu.Web.Service.CouponService
+  href: SmartMenu.Web.Service.CouponService.html
+  name: CouponService
+  nameWithType: CouponService
+  fullName: SmartMenu.Web.Service.CouponService
+- uid: SmartMenu.Web.Service.OrderService
+  commentId: T:SmartMenu.Web.Service.OrderService
+  href: SmartMenu.Web.Service.OrderService.html
+  name: OrderService
+  nameWithType: OrderService
+  fullName: SmartMenu.Web.Service.OrderService
+- uid: SmartMenu.Web.Service.ProductService
+  commentId: T:SmartMenu.Web.Service.ProductService
+  href: SmartMenu.Web.Service.ProductService.html
+  name: ProductService
+  nameWithType: ProductService
+  fullName: SmartMenu.Web.Service.ProductService
+- uid: SmartMenu.Web.Service.TokenProvider
+  commentId: T:SmartMenu.Web.Service.TokenProvider
+  href: SmartMenu.Web.Service.TokenProvider.html
+  name: TokenProvider
+  nameWithType: TokenProvider
+  fullName: SmartMenu.Web.Service.TokenProvider

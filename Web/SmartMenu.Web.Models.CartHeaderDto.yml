@@ -1,0 +1,675 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Models.CartHeaderDto
+  commentId: T:SmartMenu.Web.Models.CartHeaderDto
+  id: CartHeaderDto
+  parent: SmartMenu.Web.Models
+  children:
+  - SmartMenu.Web.Models.CartHeaderDto.CartHeaderId
+  - SmartMenu.Web.Models.CartHeaderDto.CartTotal
+  - SmartMenu.Web.Models.CartHeaderDto.CouponCode
+  - SmartMenu.Web.Models.CartHeaderDto.Discount
+  - SmartMenu.Web.Models.CartHeaderDto.Email
+  - SmartMenu.Web.Models.CartHeaderDto.Name
+  - SmartMenu.Web.Models.CartHeaderDto.Phone
+  - SmartMenu.Web.Models.CartHeaderDto.UserId
+  langs:
+  - csharp
+  - vb
+  name: CartHeaderDto
+  nameWithType: CartHeaderDto
+  fullName: SmartMenu.Web.Models.CartHeaderDto
+  type: Class
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: CartHeaderDto
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 8
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Represents the header information of a shopping cart.
+  example: []
+  syntax:
+    content: public class CartHeaderDto
+    content.vb: Public Class CartHeaderDto
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SmartMenu.Web.Models.CartHeaderDto.CartHeaderId
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.CartHeaderId
+  id: CartHeaderId
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: CartHeaderId
+  nameWithType: CartHeaderDto.CartHeaderId
+  fullName: SmartMenu.Web.Models.CartHeaderDto.CartHeaderId
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: CartHeaderId
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 13
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the cart header ID.
+  example: []
+  syntax:
+    content: public int CartHeaderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CartHeaderId As Integer
+  overload: SmartMenu.Web.Models.CartHeaderDto.CartHeaderId*
+- uid: SmartMenu.Web.Models.CartHeaderDto.UserId
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.UserId
+  id: UserId
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: CartHeaderDto.UserId
+  fullName: SmartMenu.Web.Models.CartHeaderDto.UserId
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: UserId
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 18
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the user ID.
+  example: []
+  syntax:
+    content: public string? UserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserId As String
+  overload: SmartMenu.Web.Models.CartHeaderDto.UserId*
+- uid: SmartMenu.Web.Models.CartHeaderDto.CouponCode
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.CouponCode
+  id: CouponCode
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: CouponCode
+  nameWithType: CartHeaderDto.CouponCode
+  fullName: SmartMenu.Web.Models.CartHeaderDto.CouponCode
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: CouponCode
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 23
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the coupon code.
+  example: []
+  syntax:
+    content: public string? CouponCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CouponCode As String
+  overload: SmartMenu.Web.Models.CartHeaderDto.CouponCode*
+- uid: SmartMenu.Web.Models.CartHeaderDto.Discount
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.Discount
+  id: Discount
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: Discount
+  nameWithType: CartHeaderDto.Discount
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Discount
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: Discount
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 28
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the discount amount.
+  example: []
+  syntax:
+    content: public double Discount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Discount As Double
+  overload: SmartMenu.Web.Models.CartHeaderDto.Discount*
+- uid: SmartMenu.Web.Models.CartHeaderDto.CartTotal
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.CartTotal
+  id: CartTotal
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: CartTotal
+  nameWithType: CartHeaderDto.CartTotal
+  fullName: SmartMenu.Web.Models.CartHeaderDto.CartTotal
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: CartTotal
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 33
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the total amount of the cart.
+  example: []
+  syntax:
+    content: public double CartTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property CartTotal As Double
+  overload: SmartMenu.Web.Models.CartHeaderDto.CartTotal*
+- uid: SmartMenu.Web.Models.CartHeaderDto.Name
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.Name
+  id: Name
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CartHeaderDto.Name
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Name
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: Name
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 38
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the name of the user.
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      public string? Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Name As String
+  overload: SmartMenu.Web.Models.CartHeaderDto.Name*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+- uid: SmartMenu.Web.Models.CartHeaderDto.Phone
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.Phone
+  id: Phone
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: CartHeaderDto.Phone
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Phone
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: Phone
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 44
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the phone number of the user.
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      public string? Phone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Phone As String
+  overload: SmartMenu.Web.Models.CartHeaderDto.Phone*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+- uid: SmartMenu.Web.Models.CartHeaderDto.Email
+  commentId: P:SmartMenu.Web.Models.CartHeaderDto.Email
+  id: Email
+  parent: SmartMenu.Web.Models.CartHeaderDto
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: CartHeaderDto.Email
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Email
+  type: Property
+  source:
+    remote:
+      path: SmartMenu.Web/Models/CartHeaderDto.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: Email
+    path: ../SmartMenu/SmartMenu.Web/Models/CartHeaderDto.cs
+    startLine: 50
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Models
+  summary: Gets or sets the email address of the user.
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      public string? Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Public Property Email As String
+  overload: SmartMenu.Web.Models.CartHeaderDto.Email*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+references:
+- uid: SmartMenu.Web.Models
+  commentId: N:SmartMenu.Web.Models
+  href: SmartMenu.html
+  name: SmartMenu.Web.Models
+  nameWithType: SmartMenu.Web.Models
+  fullName: SmartMenu.Web.Models
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SmartMenu.Web.Models.CartHeaderDto.CartHeaderId*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.CartHeaderId
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_CartHeaderId
+  name: CartHeaderId
+  nameWithType: CartHeaderDto.CartHeaderId
+  fullName: SmartMenu.Web.Models.CartHeaderDto.CartHeaderId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SmartMenu.Web.Models.CartHeaderDto.UserId*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.UserId
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_UserId
+  name: UserId
+  nameWithType: CartHeaderDto.UserId
+  fullName: SmartMenu.Web.Models.CartHeaderDto.UserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SmartMenu.Web.Models.CartHeaderDto.CouponCode*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.CouponCode
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_CouponCode
+  name: CouponCode
+  nameWithType: CartHeaderDto.CouponCode
+  fullName: SmartMenu.Web.Models.CartHeaderDto.CouponCode
+- uid: SmartMenu.Web.Models.CartHeaderDto.Discount*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.Discount
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_Discount
+  name: Discount
+  nameWithType: CartHeaderDto.Discount
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Discount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: SmartMenu.Web.Models.CartHeaderDto.CartTotal*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.CartTotal
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_CartTotal
+  name: CartTotal
+  nameWithType: CartHeaderDto.CartTotal
+  fullName: SmartMenu.Web.Models.CartHeaderDto.CartTotal
+- uid: SmartMenu.Web.Models.CartHeaderDto.Name*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.Name
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_Name
+  name: Name
+  nameWithType: CartHeaderDto.Name
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Name
+- uid: SmartMenu.Web.Models.CartHeaderDto.Phone*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.Phone
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_Phone
+  name: Phone
+  nameWithType: CartHeaderDto.Phone
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Phone
+- uid: SmartMenu.Web.Models.CartHeaderDto.Email*
+  commentId: Overload:SmartMenu.Web.Models.CartHeaderDto.Email
+  href: SmartMenu.Web.Models.CartHeaderDto.html#SmartMenu_Web_Models_CartHeaderDto_Email
+  name: Email
+  nameWithType: CartHeaderDto.Email
+  fullName: SmartMenu.Web.Models.CartHeaderDto.Email

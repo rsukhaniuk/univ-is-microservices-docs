@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Utility.SD.ApiType
+  commentId: T:SmartMenu.Web.Utility.SD.ApiType
+  id: SD.ApiType
+  parent: SmartMenu.Web.Utility
+  children:
+  - SmartMenu.Web.Utility.SD.ApiType.DELETE
+  - SmartMenu.Web.Utility.SD.ApiType.GET
+  - SmartMenu.Web.Utility.SD.ApiType.POST
+  - SmartMenu.Web.Utility.SD.ApiType.PUT
+  langs:
+  - csharp
+  - vb
+  name: SD.ApiType
+  nameWithType: SD.ApiType
+  fullName: SmartMenu.Web.Utility.SD.ApiType
+  type: Enum
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: ApiType
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 50
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Defines the types of API requests.
+  example: []
+  syntax:
+    content: public enum SD.ApiType
+    content.vb: Public Enum SD.ApiType
+- uid: SmartMenu.Web.Utility.SD.ApiType.GET
+  commentId: F:SmartMenu.Web.Utility.SD.ApiType.GET
+  id: GET
+  parent: SmartMenu.Web.Utility.SD.ApiType
+  langs:
+  - csharp
+  - vb
+  name: GET
+  nameWithType: SD.ApiType.GET
+  fullName: SmartMenu.Web.Utility.SD.ApiType.GET
+  type: Field
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GET
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 55
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Represents a GET request.
+  example: []
+  syntax:
+    content: GET = 0
+    return:
+      type: SmartMenu.Web.Utility.SD.ApiType
+- uid: SmartMenu.Web.Utility.SD.ApiType.POST
+  commentId: F:SmartMenu.Web.Utility.SD.ApiType.POST
+  id: POST
+  parent: SmartMenu.Web.Utility.SD.ApiType
+  langs:
+  - csharp
+  - vb
+  name: POST
+  nameWithType: SD.ApiType.POST
+  fullName: SmartMenu.Web.Utility.SD.ApiType.POST
+  type: Field
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: POST
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 60
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Represents a POST request.
+  example: []
+  syntax:
+    content: POST = 1
+    return:
+      type: SmartMenu.Web.Utility.SD.ApiType
+- uid: SmartMenu.Web.Utility.SD.ApiType.PUT
+  commentId: F:SmartMenu.Web.Utility.SD.ApiType.PUT
+  id: PUT
+  parent: SmartMenu.Web.Utility.SD.ApiType
+  langs:
+  - csharp
+  - vb
+  name: PUT
+  nameWithType: SD.ApiType.PUT
+  fullName: SmartMenu.Web.Utility.SD.ApiType.PUT
+  type: Field
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: PUT
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 65
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Represents a PUT request.
+  example: []
+  syntax:
+    content: PUT = 2
+    return:
+      type: SmartMenu.Web.Utility.SD.ApiType
+- uid: SmartMenu.Web.Utility.SD.ApiType.DELETE
+  commentId: F:SmartMenu.Web.Utility.SD.ApiType.DELETE
+  id: DELETE
+  parent: SmartMenu.Web.Utility.SD.ApiType
+  langs:
+  - csharp
+  - vb
+  name: DELETE
+  nameWithType: SD.ApiType.DELETE
+  fullName: SmartMenu.Web.Utility.SD.ApiType.DELETE
+  type: Field
+  source:
+    remote:
+      path: SmartMenu.Web/Utility/SD.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: DELETE
+    path: ../SmartMenu/SmartMenu.Web/Utility/SD.cs
+    startLine: 70
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Utility
+  summary: Represents a DELETE request.
+  example: []
+  syntax:
+    content: DELETE = 3
+    return:
+      type: SmartMenu.Web.Utility.SD.ApiType
+references:
+- uid: SmartMenu.Web.Utility
+  commentId: N:SmartMenu.Web.Utility
+  href: SmartMenu.html
+  name: SmartMenu.Web.Utility
+  nameWithType: SmartMenu.Web.Utility
+  fullName: SmartMenu.Web.Utility
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Utility
+    name: Utility
+    href: SmartMenu.Web.Utility.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Utility
+    name: Utility
+    href: SmartMenu.Web.Utility.html
+- uid: SmartMenu.Web.Utility.SD.ApiType
+  commentId: T:SmartMenu.Web.Utility.SD.ApiType
+  parent: SmartMenu.Web.Utility
+  href: SmartMenu.Web.Utility.SD.html
+  name: SD.ApiType
+  nameWithType: SD.ApiType
+  fullName: SmartMenu.Web.Utility.SD.ApiType
+  spec.csharp:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ApiType
+    name: ApiType
+    href: SmartMenu.Web.Utility.SD.ApiType.html
+  spec.vb:
+  - uid: SmartMenu.Web.Utility.SD
+    name: SD
+    href: SmartMenu.Web.Utility.SD.html
+  - name: .
+  - uid: SmartMenu.Web.Utility.SD.ApiType
+    name: ApiType
+    href: SmartMenu.Web.Utility.SD.ApiType.html

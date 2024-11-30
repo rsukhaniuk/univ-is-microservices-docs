@@ -1,0 +1,7 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "title": "Welcome to SmartMenu Documentation \uD83D\uDE80 | smartmenu",
+    "keywords": "Welcome to SmartMenu Documentation \uD83D\uDE80 Explore comprehensive guides, detailed API references, and practical examples to maximize the potential of the SmartMenu platform. \uD83D\uDCD6 Documentation Overview Full Documentation Access in-depth guides, tutorials, and best practices for setting up and effectively using SmartMenu. \uD83C\uDF10 API Documentation Detailed API references for seamless integration and management of SmartMenu services: Auth API Manage authentication and authorization for secure user access. Coupon API Implement and manage discount coupons for your users with ease. Order API Create, update, and manage orders and their statuses. Product API Efficiently handle product and category management. Shopping Cart API Build a seamless shopping cart experience for your customers. \uD83D\uDEE0 Quick Start Add assets to the images folder to include them in your documentation. Leverage Markdown syntax for clean and structured formatting. Customize styles and layouts by editing _layout templates to match your branding needs. SmartMenu Documentation: Your comprehensive resource for streamlined and efficient development!"
+  }
+}

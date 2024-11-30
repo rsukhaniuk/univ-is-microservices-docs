@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.AuthAPI.Service
+  commentId: N:SmartMenu.Services.AuthAPI.Service
+  id: SmartMenu.Services.AuthAPI.Service
+  children:
+  - SmartMenu.Services.AuthAPI.Service.AuthService
+  - SmartMenu.Services.AuthAPI.Service.JwtTokenGenerator
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.AuthAPI.Service
+  nameWithType: SmartMenu.Services.AuthAPI.Service
+  fullName: SmartMenu.Services.AuthAPI.Service
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+references:
+- uid: SmartMenu.Services.AuthAPI.Service.AuthService
+  commentId: T:SmartMenu.Services.AuthAPI.Service.AuthService
+  href: SmartMenu.Services.AuthAPI.Service.AuthService.html
+  name: AuthService
+  nameWithType: AuthService
+  fullName: SmartMenu.Services.AuthAPI.Service.AuthService
+- uid: SmartMenu.Services.AuthAPI.Service.JwtTokenGenerator
+  commentId: T:SmartMenu.Services.AuthAPI.Service.JwtTokenGenerator
+  href: SmartMenu.Services.AuthAPI.Service.JwtTokenGenerator.html
+  name: JwtTokenGenerator
+  nameWithType: JwtTokenGenerator
+  fullName: SmartMenu.Services.AuthAPI.Service.JwtTokenGenerator

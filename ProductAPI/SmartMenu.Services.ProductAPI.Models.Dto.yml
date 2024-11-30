@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ProductAPI.Models.Dto
+  commentId: N:SmartMenu.Services.ProductAPI.Models.Dto
+  id: SmartMenu.Services.ProductAPI.Models.Dto
+  children:
+  - SmartMenu.Services.ProductAPI.Models.Dto.CategoryDto
+  - SmartMenu.Services.ProductAPI.Models.Dto.ProductDto
+  - SmartMenu.Services.ProductAPI.Models.Dto.ResponseDto
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ProductAPI.Models.Dto
+  nameWithType: SmartMenu.Services.ProductAPI.Models.Dto
+  fullName: SmartMenu.Services.ProductAPI.Models.Dto
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ProductAPI
+references:
+- uid: SmartMenu.Services.ProductAPI.Models.Dto.CategoryDto
+  commentId: T:SmartMenu.Services.ProductAPI.Models.Dto.CategoryDto
+  parent: SmartMenu.Services.ProductAPI.Models.Dto
+  href: SmartMenu.Services.ProductAPI.Models.Dto.CategoryDto.html
+  name: CategoryDto
+  nameWithType: CategoryDto
+  fullName: SmartMenu.Services.ProductAPI.Models.Dto.CategoryDto
+- uid: SmartMenu.Services.ProductAPI.Models.Dto.ProductDto
+  commentId: T:SmartMenu.Services.ProductAPI.Models.Dto.ProductDto
+  parent: SmartMenu.Services.ProductAPI.Models.Dto
+  href: SmartMenu.Services.ProductAPI.Models.Dto.ProductDto.html
+  name: ProductDto
+  nameWithType: ProductDto
+  fullName: SmartMenu.Services.ProductAPI.Models.Dto.ProductDto
+- uid: SmartMenu.Services.ProductAPI.Models.Dto.ResponseDto
+  commentId: T:SmartMenu.Services.ProductAPI.Models.Dto.ResponseDto
+  parent: SmartMenu.Services.ProductAPI.Models.Dto
+  href: SmartMenu.Services.ProductAPI.Models.Dto.ResponseDto.html
+  name: ResponseDto
+  nameWithType: ResponseDto
+  fullName: SmartMenu.Services.ProductAPI.Models.Dto.ResponseDto
+- uid: SmartMenu.Services.ProductAPI.Models.Dto
+  commentId: N:SmartMenu.Services.ProductAPI.Models.Dto
+  href: SmartMenu.html
+  name: SmartMenu.Services.ProductAPI.Models.Dto
+  nameWithType: SmartMenu.Services.ProductAPI.Models.Dto
+  fullName: SmartMenu.Services.ProductAPI.Models.Dto
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI
+    name: ProductAPI
+    href: SmartMenu.Services.ProductAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI.Models
+    name: Models
+    href: SmartMenu.Services.ProductAPI.Models.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI.Models.Dto
+    name: Dto
+    href: SmartMenu.Services.ProductAPI.Models.Dto.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI
+    name: ProductAPI
+    href: SmartMenu.Services.ProductAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI.Models
+    name: Models
+    href: SmartMenu.Services.ProductAPI.Models.html
+  - name: .
+  - uid: SmartMenu.Services.ProductAPI.Models.Dto
+    name: Dto
+    href: SmartMenu.Services.ProductAPI.Models.Dto.html

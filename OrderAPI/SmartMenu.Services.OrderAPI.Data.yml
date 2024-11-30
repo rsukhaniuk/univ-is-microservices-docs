@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.OrderAPI.Data
+  commentId: N:SmartMenu.Services.OrderAPI.Data
+  id: SmartMenu.Services.OrderAPI.Data
+  children:
+  - SmartMenu.Services.OrderAPI.Data.AppDbContext
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.OrderAPI.Data
+  nameWithType: SmartMenu.Services.OrderAPI.Data
+  fullName: SmartMenu.Services.OrderAPI.Data
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.OrderAPI
+references:
+- uid: SmartMenu.Services.OrderAPI.Data.AppDbContext
+  commentId: T:SmartMenu.Services.OrderAPI.Data.AppDbContext
+  parent: SmartMenu.Services.OrderAPI.Data
+  href: SmartMenu.Services.OrderAPI.Data.AppDbContext.html
+  name: AppDbContext
+  nameWithType: AppDbContext
+  fullName: SmartMenu.Services.OrderAPI.Data.AppDbContext
+- uid: SmartMenu.Services.OrderAPI.Data
+  commentId: N:SmartMenu.Services.OrderAPI.Data
+  href: SmartMenu.html
+  name: SmartMenu.Services.OrderAPI.Data
+  nameWithType: SmartMenu.Services.OrderAPI.Data
+  fullName: SmartMenu.Services.OrderAPI.Data
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.OrderAPI
+    name: OrderAPI
+    href: SmartMenu.Services.OrderAPI.html
+  - name: .
+  - uid: SmartMenu.Services.OrderAPI.Data
+    name: Data
+    href: SmartMenu.Services.OrderAPI.Data.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.OrderAPI
+    name: OrderAPI
+    href: SmartMenu.Services.OrderAPI.html
+  - name: .
+  - uid: SmartMenu.Services.OrderAPI.Data
+    name: Data
+    href: SmartMenu.Services.OrderAPI.Data.html

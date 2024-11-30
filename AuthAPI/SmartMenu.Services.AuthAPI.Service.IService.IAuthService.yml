@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  commentId: T:SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  id: IAuthService
+  parent: SmartMenu.Services.AuthAPI.Service.IService
+  children:
+  - SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole(System.String,System.String)
+  - SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword(System.String,SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto)
+  - SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount(System.String)
+  - SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount(SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto)
+  - SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync(System.String)
+  - SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login(SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto)
+  - SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register(SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto)
+  langs:
+  - csharp
+  - vb
+  name: IAuthService
+  nameWithType: IAuthService
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  type: Interface
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: IAuthService
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 7
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Interface for authentication-related services.
+  example: []
+  syntax:
+    content: public interface IAuthService
+    content.vb: Public Interface IAuthService
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register(SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto)
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register(SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto)
+  id: Register(SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto)
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: Register(RegistrationRequestDto)
+  nameWithType: IAuthService.Register(RegistrationRequestDto)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register(SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: Register
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 14
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Registers a new user.
+  example: []
+  syntax:
+    content: Task<string> Register(RegistrationRequestDto registrationRequestDto)
+    parameters:
+    - id: registrationRequestDto
+      type: SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto
+      description: The registration request data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: A task that represents the asynchronous operation. The task result contains a string indicating the result of the registration.
+    content.vb: Function Register(registrationRequestDto As RegistrationRequestDto) As Task(Of String)
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register*
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login(SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto)
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login(SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto)
+  id: Login(SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto)
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: Login(LoginRequestDto)
+  nameWithType: IAuthService.Login(LoginRequestDto)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login(SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: Login
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 21
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Logs in a user.
+  example: []
+  syntax:
+    content: Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto)
+    parameters:
+    - id: loginRequestDto
+      type: SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto
+      description: The login request data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the login response data transfer object.
+    content.vb: Function Login(loginRequestDto As LoginRequestDto) As Task(Of LoginResponseDto)
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login*
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole(System.String,System.String)
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole(System.String,System.String)
+  id: AssignRole(System.String,System.String)
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: AssignRole(string, string)
+  nameWithType: IAuthService.AssignRole(string, string)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole(string, string)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: AssignRole
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 29
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Assigns a role to a user.
+  example: []
+  syntax:
+    content: Task<bool> AssignRole(string email, string roleName)
+    parameters:
+    - id: email
+      type: System.String
+      description: The email of the user.
+    - id: roleName
+      type: System.String
+      description: The name of the role.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: A task that represents the asynchronous operation. The task result contains a boolean indicating success.
+    content.vb: Function AssignRole(email As String, roleName As String) As Task(Of Boolean)
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole*
+  nameWithType.vb: IAuthService.AssignRole(String, String)
+  fullName.vb: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole(String, String)
+  name.vb: AssignRole(String, String)
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount(SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto)
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount(SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto)
+  id: EditAccount(SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto)
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: EditAccount(EditAccountDto)
+  nameWithType: IAuthService.EditAccount(EditAccountDto)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount(SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: EditAccount
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 36
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Edits a user's account information.
+  example: []
+  syntax:
+    content: Task<bool> EditAccount(EditAccountDto editAccountDto)
+    parameters:
+    - id: editAccountDto
+      type: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto
+      description: The edit account data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: A task that represents the asynchronous operation. The task result contains a boolean indicating success.
+    content.vb: Function EditAccount(editAccountDto As EditAccountDto) As Task(Of Boolean)
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount*
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount(System.String)
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount(System.String)
+  id: DeleteAccount(System.String)
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: DeleteAccount(string)
+  nameWithType: IAuthService.DeleteAccount(string)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount(string)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: DeleteAccount
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 43
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Deletes a user's account.
+  example: []
+  syntax:
+    content: Task<bool> DeleteAccount(string email)
+    parameters:
+    - id: email
+      type: System.String
+      description: The email of the user.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: A task that represents the asynchronous operation. The task result contains a boolean indicating success.
+    content.vb: Function DeleteAccount(email As String) As Task(Of Boolean)
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount*
+  nameWithType.vb: IAuthService.DeleteAccount(String)
+  fullName.vb: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount(String)
+  name.vb: DeleteAccount(String)
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword(System.String,SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto)
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword(System.String,SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto)
+  id: ChangePassword(System.String,SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto)
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: ChangePassword(string, ChangePasswordDto)
+  nameWithType: IAuthService.ChangePassword(string, ChangePasswordDto)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword(string, SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: ChangePassword
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 51
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Changes a user's password.
+  example: []
+  syntax:
+    content: Task<bool> ChangePassword(string userId, ChangePasswordDto changePasswordDto)
+    parameters:
+    - id: userId
+      type: System.String
+      description: The user ID.
+    - id: changePasswordDto
+      type: SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto
+      description: The change password data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: A task that represents the asynchronous operation. The task result contains a boolean indicating success.
+    content.vb: Function ChangePassword(userId As String, changePasswordDto As ChangePasswordDto) As Task(Of Boolean)
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword*
+  nameWithType.vb: IAuthService.ChangePassword(String, ChangePasswordDto)
+  fullName.vb: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword(String, SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto)
+  name.vb: ChangePassword(String, ChangePasswordDto)
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync(System.String)
+  commentId: M:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync(System.String)
+  id: GetUserDetailsAsync(System.String)
+  parent: SmartMenu.Services.AuthAPI.Service.IService.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: GetUserDetailsAsync(string)
+  nameWithType: IAuthService.GetUserDetailsAsync(string)
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync(string)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetUserDetailsAsync
+    path: ../SmartMenu/SmartMenu.Services.AuthAPI/Service/IService/IAuthService.cs
+    startLine: 58
+  assemblies:
+  - SmartMenu.Services.AuthAPI
+  namespace: SmartMenu.Services.AuthAPI.Service.IService
+  summary: Gets the details of a user.
+  example: []
+  syntax:
+    content: Task<EditAccountDto?> GetUserDetailsAsync(string userId)
+    parameters:
+    - id: userId
+      type: System.String
+      description: The user ID.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto}
+      description: A task that represents the asynchronous operation. The task result contains the edit account data transfer object.
+    content.vb: Function GetUserDetailsAsync(userId As String) As Task(Of EditAccountDto)
+  overload: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync*
+  nameWithType.vb: IAuthService.GetUserDetailsAsync(String)
+  fullName.vb: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync(String)
+  name.vb: GetUserDetailsAsync(String)
+references:
+- uid: SmartMenu.Services.AuthAPI.Service.IService
+  commentId: N:SmartMenu.Services.AuthAPI.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Services.AuthAPI.Service.IService
+  nameWithType: SmartMenu.Services.AuthAPI.Service.IService
+  fullName: SmartMenu.Services.AuthAPI.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service
+    name: Service
+    href: SmartMenu.Services.AuthAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.AuthAPI.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service
+    name: Service
+    href: SmartMenu.Services.AuthAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.AuthAPI.Service.IService.html
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register
+  href: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.html#SmartMenu_Services_AuthAPI_Service_IService_IAuthService_Register_SmartMenu_Services_AuthAPI_Models_Dto_RegistrationRequestDto_
+  name: Register
+  nameWithType: IAuthService.Register
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Register
+- uid: SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto
+  commentId: T:SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto
+  parent: SmartMenu.Services.AuthAPI.Models.Dto
+  href: SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto.html
+  name: RegistrationRequestDto
+  nameWithType: RegistrationRequestDto
+  fullName: SmartMenu.Services.AuthAPI.Models.Dto.RegistrationRequestDto
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SmartMenu.Services.AuthAPI.Models.Dto
+  commentId: N:SmartMenu.Services.AuthAPI.Models.Dto
+  href: SmartMenu.html
+  name: SmartMenu.Services.AuthAPI.Models.Dto
+  nameWithType: SmartMenu.Services.AuthAPI.Models.Dto
+  fullName: SmartMenu.Services.AuthAPI.Models.Dto
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Models
+    name: Models
+    href: SmartMenu.Services.AuthAPI.Models.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto
+    name: Dto
+    href: SmartMenu.Services.AuthAPI.Models.Dto.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI
+    name: AuthAPI
+    href: SmartMenu.Services.AuthAPI.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Models
+    name: Models
+    href: SmartMenu.Services.AuthAPI.Models.html
+  - name: .
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto
+    name: Dto
+    href: SmartMenu.Services.AuthAPI.Models.Dto.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login
+  href: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.html#SmartMenu_Services_AuthAPI_Service_IService_IAuthService_Login_SmartMenu_Services_AuthAPI_Models_Dto_LoginRequestDto_
+  name: Login
+  nameWithType: IAuthService.Login
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.Login
+- uid: SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto
+  commentId: T:SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto
+  parent: SmartMenu.Services.AuthAPI.Models.Dto
+  href: SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto.html
+  name: LoginRequestDto
+  nameWithType: LoginRequestDto
+  fullName: SmartMenu.Services.AuthAPI.Models.Dto.LoginRequestDto
+- uid: System.Threading.Tasks.Task{SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto}
+  commentId: T:System.Threading.Tasks.Task{SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<LoginResponseDto>
+  nameWithType: Task<LoginResponseDto>
+  fullName: System.Threading.Tasks.Task<SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto>
+  nameWithType.vb: Task(Of LoginResponseDto)
+  fullName.vb: System.Threading.Tasks.Task(Of SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto)
+  name.vb: Task(Of LoginResponseDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto
+    name: LoginResponseDto
+    href: SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto
+    name: LoginResponseDto
+    href: SmartMenu.Services.AuthAPI.Models.Dto.LoginResponseDto.html
+  - name: )
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole
+  href: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.html#SmartMenu_Services_AuthAPI_Service_IService_IAuthService_AssignRole_System_String_System_String_
+  name: AssignRole
+  nameWithType: IAuthService.AssignRole
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.AssignRole
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount
+  href: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.html#SmartMenu_Services_AuthAPI_Service_IService_IAuthService_EditAccount_SmartMenu_Services_AuthAPI_Models_Dto_EditAccountDto_
+  name: EditAccount
+  nameWithType: IAuthService.EditAccount
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.EditAccount
+- uid: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto
+  commentId: T:SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto
+  parent: SmartMenu.Services.AuthAPI.Models.Dto
+  href: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto.html
+  name: EditAccountDto
+  nameWithType: EditAccountDto
+  fullName: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount
+  href: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.html#SmartMenu_Services_AuthAPI_Service_IService_IAuthService_DeleteAccount_System_String_
+  name: DeleteAccount
+  nameWithType: IAuthService.DeleteAccount
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.DeleteAccount
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword
+  href: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.html#SmartMenu_Services_AuthAPI_Service_IService_IAuthService_ChangePassword_System_String_SmartMenu_Services_AuthAPI_Models_Dto_ChangePasswordDto_
+  name: ChangePassword
+  nameWithType: IAuthService.ChangePassword
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.ChangePassword
+- uid: SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto
+  commentId: T:SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto
+  parent: SmartMenu.Services.AuthAPI.Models.Dto
+  href: SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto.html
+  name: ChangePasswordDto
+  nameWithType: ChangePasswordDto
+  fullName: SmartMenu.Services.AuthAPI.Models.Dto.ChangePasswordDto
+- uid: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync*
+  commentId: Overload:SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync
+  href: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.html#SmartMenu_Services_AuthAPI_Service_IService_IAuthService_GetUserDetailsAsync_System_String_
+  name: GetUserDetailsAsync
+  nameWithType: IAuthService.GetUserDetailsAsync
+  fullName: SmartMenu.Services.AuthAPI.Service.IService.IAuthService.GetUserDetailsAsync
+- uid: System.Threading.Tasks.Task{SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto}
+  commentId: T:System.Threading.Tasks.Task{SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<EditAccountDto>
+  nameWithType: Task<EditAccountDto>
+  fullName: System.Threading.Tasks.Task<SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto>
+  nameWithType.vb: Task(Of EditAccountDto)
+  fullName.vb: System.Threading.Tasks.Task(Of SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto)
+  name.vb: Task(Of EditAccountDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto
+    name: EditAccountDto
+    href: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto
+    name: EditAccountDto
+    href: SmartMenu.Services.AuthAPI.Models.Dto.EditAccountDto.html
+  - name: )

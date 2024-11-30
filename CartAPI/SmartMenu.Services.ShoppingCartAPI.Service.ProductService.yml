@@ -1,0 +1,638 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  id: ProductService
+  parent: SmartMenu.Services.ShoppingCartAPI.Service
+  children:
+  - SmartMenu.Services.ShoppingCartAPI.Service.ProductService.#ctor(System.Net.Http.IHttpClientFactory)
+  - SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts
+  langs:
+  - csharp
+  - vb
+  name: ProductService
+  nameWithType: ProductService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  type: Class
+  source:
+    remote:
+      path: SmartMenu.Services.ShoppingCartAPI/Service/ProductService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: ProductService
+    path: ../SmartMenu/SmartMenu.Services.ShoppingCartAPI/Service/ProductService.cs
+    startLine: 9
+  assemblies:
+  - SmartMenu.Services.ShoppingCartAPI
+  namespace: SmartMenu.Services.ShoppingCartAPI.Service
+  summary: Service class for handling product-related operations.
+  example: []
+  syntax:
+    content: 'public class ProductService : IProductService'
+    content.vb: Public Class ProductService Implements IProductService
+  inheritance:
+  - System.Object
+  implements:
+  - SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.#ctor(System.Net.Http.IHttpClientFactory)
+  commentId: M:SmartMenu.Services.ShoppingCartAPI.Service.ProductService.#ctor(System.Net.Http.IHttpClientFactory)
+  id: '#ctor(System.Net.Http.IHttpClientFactory)'
+  parent: SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  langs:
+  - csharp
+  - vb
+  name: ProductService(IHttpClientFactory)
+  nameWithType: ProductService.ProductService(IHttpClientFactory)
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.ProductService(System.Net.Http.IHttpClientFactory)
+  type: Constructor
+  source:
+    remote:
+      path: SmartMenu.Services.ShoppingCartAPI/Service/ProductService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: .ctor
+    path: ../SmartMenu/SmartMenu.Services.ShoppingCartAPI/Service/ProductService.cs
+    startLine: 17
+  assemblies:
+  - SmartMenu.Services.ShoppingCartAPI
+  namespace: SmartMenu.Services.ShoppingCartAPI.Service
+  summary: Initializes a new instance of the <xref href="SmartMenu.Services.ShoppingCartAPI.Service.ProductService" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public ProductService(IHttpClientFactory clientFactory)
+    parameters:
+    - id: clientFactory
+      type: System.Net.Http.IHttpClientFactory
+      description: The HTTP client factory.
+    content.vb: Public Sub New(clientFactory As IHttpClientFactory)
+  overload: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.#ctor*
+  nameWithType.vb: ProductService.New(IHttpClientFactory)
+  fullName.vb: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.New(System.Net.Http.IHttpClientFactory)
+  name.vb: New(IHttpClientFactory)
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts
+  commentId: M:SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts
+  id: GetProducts
+  parent: SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  langs:
+  - csharp
+  - vb
+  name: GetProducts()
+  nameWithType: ProductService.GetProducts()
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts()
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Services.ShoppingCartAPI/Service/ProductService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetProducts
+    path: ../SmartMenu/SmartMenu.Services.ShoppingCartAPI/Service/ProductService.cs
+    startLine: 26
+  assemblies:
+  - SmartMenu.Services.ShoppingCartAPI
+  namespace: SmartMenu.Services.ShoppingCartAPI.Service
+  summary: Gets the list of products.
+  example: []
+  syntax:
+    content: public Task<IEnumerable<ProductDto>> GetProducts()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto}}
+      description: A task that represents the asynchronous operation. The task result contains the list of products.
+    content.vb: Public Function GetProducts() As Task(Of IEnumerable(Of ProductDto))
+  overload: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts*
+  implements:
+  - SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.GetProducts
+references:
+- uid: SmartMenu.Services.ShoppingCartAPI.Service
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Service
+  href: SmartMenu.html
+  name: SmartMenu.Services.ShoppingCartAPI.Service
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Service
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service
+    name: Service
+    href: SmartMenu.Services.ShoppingCartAPI.Service.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service
+    name: Service
+    href: SmartMenu.Services.ShoppingCartAPI.Service.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+  parent: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  href: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.html
+  name: IProductService
+  nameWithType: IProductService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service
+    name: Service
+    href: SmartMenu.Services.ShoppingCartAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.ShoppingCartAPI.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service
+    name: Service
+    href: SmartMenu.Services.ShoppingCartAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.ShoppingCartAPI.Service.IService.html
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+  href: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.html
+  name: ProductService
+  nameWithType: ProductService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.ProductService
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.#ctor*
+  commentId: Overload:SmartMenu.Services.ShoppingCartAPI.Service.ProductService.#ctor
+  href: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.html#SmartMenu_Services_ShoppingCartAPI_Service_ProductService__ctor_System_Net_Http_IHttpClientFactory_
+  name: ProductService
+  nameWithType: ProductService.ProductService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.ProductService
+  nameWithType.vb: ProductService.New
+  fullName.vb: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.New
+  name.vb: New
+- uid: System.Net.Http.IHttpClientFactory
+  commentId: T:System.Net.Http.IHttpClientFactory
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.ihttpclientfactory
+  name: IHttpClientFactory
+  nameWithType: IHttpClientFactory
+  fullName: System.Net.Http.IHttpClientFactory
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts*
+  commentId: Overload:SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts
+  href: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.html#SmartMenu_Services_ShoppingCartAPI_Service_ProductService_GetProducts
+  name: GetProducts
+  nameWithType: ProductService.GetProducts
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.ProductService.GetProducts
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.GetProducts
+  commentId: M:SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.GetProducts
+  parent: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+  href: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.html#SmartMenu_Services_ShoppingCartAPI_Service_IService_IProductService_GetProducts
+  name: GetProducts()
+  nameWithType: IProductService.GetProducts()
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.GetProducts()
+  spec.csharp:
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.GetProducts
+    name: GetProducts
+    href: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.html#SmartMenu_Services_ShoppingCartAPI_Service_IService_IProductService_GetProducts
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.GetProducts
+    name: GetProducts
+    href: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.html#SmartMenu_Services_ShoppingCartAPI_Service_IService_IProductService_GetProducts
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IEnumerable<ProductDto>>
+  nameWithType: Task<IEnumerable<ProductDto>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto>>
+  nameWithType.vb: Task(Of IEnumerable(Of ProductDto))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto))
+  name.vb: Task(Of IEnumerable(Of ProductDto))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto
+    name: ProductDto
+    href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto
+    name: ProductDto
+    href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

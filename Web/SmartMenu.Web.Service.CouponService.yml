@@ -1,0 +1,1001 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Web.Service.CouponService
+  commentId: T:SmartMenu.Web.Service.CouponService
+  id: CouponService
+  parent: SmartMenu.Web.Service
+  children:
+  - SmartMenu.Web.Service.CouponService.#ctor(SmartMenu.Web.Service.IService.IBaseService)
+  - SmartMenu.Web.Service.CouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  - SmartMenu.Web.Service.CouponService.DeleteCouponsAsync(System.Int32)
+  - SmartMenu.Web.Service.CouponService.GetAllCouponsAsync
+  - SmartMenu.Web.Service.CouponService.GetCouponAsync(System.String)
+  - SmartMenu.Web.Service.CouponService.GetCouponByIdAsync(System.Int32)
+  - SmartMenu.Web.Service.CouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  langs:
+  - csharp
+  - vb
+  name: CouponService
+  nameWithType: CouponService
+  fullName: SmartMenu.Web.Service.CouponService
+  type: Class
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: CouponService
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 9
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Provides services related to coupons.
+  example: []
+  syntax:
+    content: 'public class CouponService : ICouponService'
+    content.vb: Public Class CouponService Implements ICouponService
+  inheritance:
+  - System.Object
+  implements:
+  - SmartMenu.Web.Service.IService.ICouponService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SmartMenu.Web.Service.CouponService.#ctor(SmartMenu.Web.Service.IService.IBaseService)
+  commentId: M:SmartMenu.Web.Service.CouponService.#ctor(SmartMenu.Web.Service.IService.IBaseService)
+  id: '#ctor(SmartMenu.Web.Service.IService.IBaseService)'
+  parent: SmartMenu.Web.Service.CouponService
+  langs:
+  - csharp
+  - vb
+  name: CouponService(IBaseService)
+  nameWithType: CouponService.CouponService(IBaseService)
+  fullName: SmartMenu.Web.Service.CouponService.CouponService(SmartMenu.Web.Service.IService.IBaseService)
+  type: Constructor
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: .ctor
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 17
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Initializes a new instance of the <xref href="SmartMenu.Web.Service.CouponService" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public CouponService(IBaseService baseService)
+    parameters:
+    - id: baseService
+      type: SmartMenu.Web.Service.IService.IBaseService
+      description: The base service to be used for sending requests.
+    content.vb: Public Sub New(baseService As IBaseService)
+  overload: SmartMenu.Web.Service.CouponService.#ctor*
+  nameWithType.vb: CouponService.New(IBaseService)
+  fullName.vb: SmartMenu.Web.Service.CouponService.New(SmartMenu.Web.Service.IService.IBaseService)
+  name.vb: New(IBaseService)
+- uid: SmartMenu.Web.Service.CouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  commentId: M:SmartMenu.Web.Service.CouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  id: CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  parent: SmartMenu.Web.Service.CouponService
+  langs:
+  - csharp
+  - vb
+  name: CreateCouponsAsync(CouponDto)
+  nameWithType: CouponService.CreateCouponsAsync(CouponDto)
+  fullName: SmartMenu.Web.Service.CouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: CreateCouponsAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 27
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Creates a new coupon.
+  example: []
+  syntax:
+    content: public Task<ResponseDto?> CreateCouponsAsync(CouponDto couponDto)
+    parameters:
+    - id: couponDto
+      type: SmartMenu.Web.Models.CouponDto
+      description: The coupon data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Public Function CreateCouponsAsync(couponDto As CouponDto) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.CouponService.CreateCouponsAsync*
+  implements:
+  - SmartMenu.Web.Service.IService.ICouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+- uid: SmartMenu.Web.Service.CouponService.DeleteCouponsAsync(System.Int32)
+  commentId: M:SmartMenu.Web.Service.CouponService.DeleteCouponsAsync(System.Int32)
+  id: DeleteCouponsAsync(System.Int32)
+  parent: SmartMenu.Web.Service.CouponService
+  langs:
+  - csharp
+  - vb
+  name: DeleteCouponsAsync(int)
+  nameWithType: CouponService.DeleteCouponsAsync(int)
+  fullName: SmartMenu.Web.Service.CouponService.DeleteCouponsAsync(int)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: DeleteCouponsAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 42
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Deletes a coupon by ID.
+  example: []
+  syntax:
+    content: public Task<ResponseDto?> DeleteCouponsAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The coupon ID.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Public Function DeleteCouponsAsync(id As Integer) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.CouponService.DeleteCouponsAsync*
+  implements:
+  - SmartMenu.Web.Service.IService.ICouponService.DeleteCouponsAsync(System.Int32)
+  nameWithType.vb: CouponService.DeleteCouponsAsync(Integer)
+  fullName.vb: SmartMenu.Web.Service.CouponService.DeleteCouponsAsync(Integer)
+  name.vb: DeleteCouponsAsync(Integer)
+- uid: SmartMenu.Web.Service.CouponService.GetAllCouponsAsync
+  commentId: M:SmartMenu.Web.Service.CouponService.GetAllCouponsAsync
+  id: GetAllCouponsAsync
+  parent: SmartMenu.Web.Service.CouponService
+  langs:
+  - csharp
+  - vb
+  name: GetAllCouponsAsync()
+  nameWithType: CouponService.GetAllCouponsAsync()
+  fullName: SmartMenu.Web.Service.CouponService.GetAllCouponsAsync()
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetAllCouponsAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 55
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Gets all coupons.
+  example: []
+  syntax:
+    content: public Task<ResponseDto?> GetAllCouponsAsync()
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Public Function GetAllCouponsAsync() As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.CouponService.GetAllCouponsAsync*
+  implements:
+  - SmartMenu.Web.Service.IService.ICouponService.GetAllCouponsAsync
+- uid: SmartMenu.Web.Service.CouponService.GetCouponAsync(System.String)
+  commentId: M:SmartMenu.Web.Service.CouponService.GetCouponAsync(System.String)
+  id: GetCouponAsync(System.String)
+  parent: SmartMenu.Web.Service.CouponService
+  langs:
+  - csharp
+  - vb
+  name: GetCouponAsync(string)
+  nameWithType: CouponService.GetCouponAsync(string)
+  fullName: SmartMenu.Web.Service.CouponService.GetCouponAsync(string)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetCouponAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 69
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Gets a coupon by its code.
+  example: []
+  syntax:
+    content: public Task<ResponseDto?> GetCouponAsync(string couponCode)
+    parameters:
+    - id: couponCode
+      type: System.String
+      description: The coupon code.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Public Function GetCouponAsync(couponCode As String) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.CouponService.GetCouponAsync*
+  implements:
+  - SmartMenu.Web.Service.IService.ICouponService.GetCouponAsync(System.String)
+  nameWithType.vb: CouponService.GetCouponAsync(String)
+  fullName.vb: SmartMenu.Web.Service.CouponService.GetCouponAsync(String)
+  name.vb: GetCouponAsync(String)
+- uid: SmartMenu.Web.Service.CouponService.GetCouponByIdAsync(System.Int32)
+  commentId: M:SmartMenu.Web.Service.CouponService.GetCouponByIdAsync(System.Int32)
+  id: GetCouponByIdAsync(System.Int32)
+  parent: SmartMenu.Web.Service.CouponService
+  langs:
+  - csharp
+  - vb
+  name: GetCouponByIdAsync(int)
+  nameWithType: CouponService.GetCouponByIdAsync(int)
+  fullName: SmartMenu.Web.Service.CouponService.GetCouponByIdAsync(int)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: GetCouponByIdAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 83
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Gets a coupon by ID.
+  example: []
+  syntax:
+    content: public Task<ResponseDto?> GetCouponByIdAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The coupon ID.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Public Function GetCouponByIdAsync(id As Integer) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.CouponService.GetCouponByIdAsync*
+  implements:
+  - SmartMenu.Web.Service.IService.ICouponService.GetCouponByIdAsync(System.Int32)
+  nameWithType.vb: CouponService.GetCouponByIdAsync(Integer)
+  fullName.vb: SmartMenu.Web.Service.CouponService.GetCouponByIdAsync(Integer)
+  name.vb: GetCouponByIdAsync(Integer)
+- uid: SmartMenu.Web.Service.CouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  commentId: M:SmartMenu.Web.Service.CouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  id: UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  parent: SmartMenu.Web.Service.CouponService
+  langs:
+  - csharp
+  - vb
+  name: UpdateCouponsAsync(CouponDto)
+  nameWithType: CouponService.UpdateCouponsAsync(CouponDto)
+  fullName: SmartMenu.Web.Service.CouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  type: Method
+  source:
+    remote:
+      path: SmartMenu.Web/Service/CouponService.cs
+      branch: ocelot
+      repo: https://github.com/rsukhaniuk/univ-is-microservices.git
+    id: UpdateCouponsAsync
+    path: ../SmartMenu/SmartMenu.Web/Service/CouponService.cs
+    startLine: 97
+  assemblies:
+  - SmartMenu.Web
+  namespace: SmartMenu.Web.Service
+  summary: Updates an existing coupon.
+  example: []
+  syntax:
+    content: public Task<ResponseDto?> UpdateCouponsAsync(CouponDto couponDto)
+    parameters:
+    - id: couponDto
+      type: SmartMenu.Web.Models.CouponDto
+      description: The coupon data transfer object.
+    return:
+      type: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+      description: A task that represents the asynchronous operation. The task result contains the response data transfer object.
+    content.vb: Public Function UpdateCouponsAsync(couponDto As CouponDto) As Task(Of ResponseDto)
+  overload: SmartMenu.Web.Service.CouponService.UpdateCouponsAsync*
+  implements:
+  - SmartMenu.Web.Service.IService.ICouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+references:
+- uid: SmartMenu.Web.Service
+  commentId: N:SmartMenu.Web.Service
+  href: SmartMenu.html
+  name: SmartMenu.Web.Service
+  nameWithType: SmartMenu.Web.Service
+  fullName: SmartMenu.Web.Service
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SmartMenu.Web.Service.IService.ICouponService
+  commentId: T:SmartMenu.Web.Service.IService.ICouponService
+  parent: SmartMenu.Web.Service.IService
+  href: SmartMenu.Web.Service.IService.ICouponService.html
+  name: ICouponService
+  nameWithType: ICouponService
+  fullName: SmartMenu.Web.Service.IService.ICouponService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SmartMenu.Web.Service.IService
+  commentId: N:SmartMenu.Web.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Web.Service.IService
+  nameWithType: SmartMenu.Web.Service.IService
+  fullName: SmartMenu.Web.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Service
+    name: Service
+    href: SmartMenu.Web.Service.html
+  - name: .
+  - uid: SmartMenu.Web.Service.IService
+    name: IService
+    href: SmartMenu.Web.Service.IService.html
+- uid: SmartMenu.Web.Service.CouponService
+  commentId: T:SmartMenu.Web.Service.CouponService
+  href: SmartMenu.Web.Service.CouponService.html
+  name: CouponService
+  nameWithType: CouponService
+  fullName: SmartMenu.Web.Service.CouponService
+- uid: SmartMenu.Web.Service.CouponService.#ctor*
+  commentId: Overload:SmartMenu.Web.Service.CouponService.#ctor
+  href: SmartMenu.Web.Service.CouponService.html#SmartMenu_Web_Service_CouponService__ctor_SmartMenu_Web_Service_IService_IBaseService_
+  name: CouponService
+  nameWithType: CouponService.CouponService
+  fullName: SmartMenu.Web.Service.CouponService.CouponService
+  nameWithType.vb: CouponService.New
+  fullName.vb: SmartMenu.Web.Service.CouponService.New
+  name.vb: New
+- uid: SmartMenu.Web.Service.IService.IBaseService
+  commentId: T:SmartMenu.Web.Service.IService.IBaseService
+  parent: SmartMenu.Web.Service.IService
+  href: SmartMenu.Web.Service.IService.IBaseService.html
+  name: IBaseService
+  nameWithType: IBaseService
+  fullName: SmartMenu.Web.Service.IService.IBaseService
+- uid: SmartMenu.Web.Service.CouponService.CreateCouponsAsync*
+  commentId: Overload:SmartMenu.Web.Service.CouponService.CreateCouponsAsync
+  href: SmartMenu.Web.Service.CouponService.html#SmartMenu_Web_Service_CouponService_CreateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  name: CreateCouponsAsync
+  nameWithType: CouponService.CreateCouponsAsync
+  fullName: SmartMenu.Web.Service.CouponService.CreateCouponsAsync
+- uid: SmartMenu.Web.Service.IService.ICouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  commentId: M:SmartMenu.Web.Service.IService.ICouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  parent: SmartMenu.Web.Service.IService.ICouponService
+  href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_CreateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  name: CreateCouponsAsync(CouponDto)
+  nameWithType: ICouponService.CreateCouponsAsync(CouponDto)
+  fullName: SmartMenu.Web.Service.IService.ICouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  spec.csharp:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+    name: CreateCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_CreateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  - name: (
+  - uid: SmartMenu.Web.Models.CouponDto
+    name: CouponDto
+    href: SmartMenu.Web.Models.CouponDto.html
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.CreateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+    name: CreateCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_CreateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  - name: (
+  - uid: SmartMenu.Web.Models.CouponDto
+    name: CouponDto
+    href: SmartMenu.Web.Models.CouponDto.html
+  - name: )
+- uid: SmartMenu.Web.Models.CouponDto
+  commentId: T:SmartMenu.Web.Models.CouponDto
+  parent: SmartMenu.Web.Models
+  href: SmartMenu.Web.Models.CouponDto.html
+  name: CouponDto
+  nameWithType: CouponDto
+  fullName: SmartMenu.Web.Models.CouponDto
+- uid: System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  commentId: T:System.Threading.Tasks.Task{SmartMenu.Web.Models.ResponseDto}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ResponseDto>
+  nameWithType: Task<ResponseDto>
+  fullName: System.Threading.Tasks.Task<SmartMenu.Web.Models.ResponseDto>
+  nameWithType.vb: Task(Of ResponseDto)
+  fullName.vb: System.Threading.Tasks.Task(Of SmartMenu.Web.Models.ResponseDto)
+  name.vb: Task(Of ResponseDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SmartMenu.Web.Models.ResponseDto
+    name: ResponseDto
+    href: SmartMenu.Web.Models.ResponseDto.html
+  - name: )
+- uid: SmartMenu.Web.Models
+  commentId: N:SmartMenu.Web.Models
+  href: SmartMenu.html
+  name: SmartMenu.Web.Models
+  nameWithType: SmartMenu.Web.Models
+  fullName: SmartMenu.Web.Models
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Web
+    name: Web
+    href: SmartMenu.Web.html
+  - name: .
+  - uid: SmartMenu.Web.Models
+    name: Models
+    href: SmartMenu.Web.Models.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SmartMenu.Web.Service.CouponService.DeleteCouponsAsync*
+  commentId: Overload:SmartMenu.Web.Service.CouponService.DeleteCouponsAsync
+  href: SmartMenu.Web.Service.CouponService.html#SmartMenu_Web_Service_CouponService_DeleteCouponsAsync_System_Int32_
+  name: DeleteCouponsAsync
+  nameWithType: CouponService.DeleteCouponsAsync
+  fullName: SmartMenu.Web.Service.CouponService.DeleteCouponsAsync
+- uid: SmartMenu.Web.Service.IService.ICouponService.DeleteCouponsAsync(System.Int32)
+  commentId: M:SmartMenu.Web.Service.IService.ICouponService.DeleteCouponsAsync(System.Int32)
+  parent: SmartMenu.Web.Service.IService.ICouponService
+  isExternal: true
+  href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_DeleteCouponsAsync_System_Int32_
+  name: DeleteCouponsAsync(int)
+  nameWithType: ICouponService.DeleteCouponsAsync(int)
+  fullName: SmartMenu.Web.Service.IService.ICouponService.DeleteCouponsAsync(int)
+  nameWithType.vb: ICouponService.DeleteCouponsAsync(Integer)
+  fullName.vb: SmartMenu.Web.Service.IService.ICouponService.DeleteCouponsAsync(Integer)
+  name.vb: DeleteCouponsAsync(Integer)
+  spec.csharp:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.DeleteCouponsAsync(System.Int32)
+    name: DeleteCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_DeleteCouponsAsync_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.DeleteCouponsAsync(System.Int32)
+    name: DeleteCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_DeleteCouponsAsync_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SmartMenu.Web.Service.CouponService.GetAllCouponsAsync*
+  commentId: Overload:SmartMenu.Web.Service.CouponService.GetAllCouponsAsync
+  href: SmartMenu.Web.Service.CouponService.html#SmartMenu_Web_Service_CouponService_GetAllCouponsAsync
+  name: GetAllCouponsAsync
+  nameWithType: CouponService.GetAllCouponsAsync
+  fullName: SmartMenu.Web.Service.CouponService.GetAllCouponsAsync
+- uid: SmartMenu.Web.Service.IService.ICouponService.GetAllCouponsAsync
+  commentId: M:SmartMenu.Web.Service.IService.ICouponService.GetAllCouponsAsync
+  parent: SmartMenu.Web.Service.IService.ICouponService
+  href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetAllCouponsAsync
+  name: GetAllCouponsAsync()
+  nameWithType: ICouponService.GetAllCouponsAsync()
+  fullName: SmartMenu.Web.Service.IService.ICouponService.GetAllCouponsAsync()
+  spec.csharp:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.GetAllCouponsAsync
+    name: GetAllCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetAllCouponsAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.GetAllCouponsAsync
+    name: GetAllCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetAllCouponsAsync
+  - name: (
+  - name: )
+- uid: SmartMenu.Web.Service.CouponService.GetCouponAsync*
+  commentId: Overload:SmartMenu.Web.Service.CouponService.GetCouponAsync
+  href: SmartMenu.Web.Service.CouponService.html#SmartMenu_Web_Service_CouponService_GetCouponAsync_System_String_
+  name: GetCouponAsync
+  nameWithType: CouponService.GetCouponAsync
+  fullName: SmartMenu.Web.Service.CouponService.GetCouponAsync
+- uid: SmartMenu.Web.Service.IService.ICouponService.GetCouponAsync(System.String)
+  commentId: M:SmartMenu.Web.Service.IService.ICouponService.GetCouponAsync(System.String)
+  parent: SmartMenu.Web.Service.IService.ICouponService
+  isExternal: true
+  href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetCouponAsync_System_String_
+  name: GetCouponAsync(string)
+  nameWithType: ICouponService.GetCouponAsync(string)
+  fullName: SmartMenu.Web.Service.IService.ICouponService.GetCouponAsync(string)
+  nameWithType.vb: ICouponService.GetCouponAsync(String)
+  fullName.vb: SmartMenu.Web.Service.IService.ICouponService.GetCouponAsync(String)
+  name.vb: GetCouponAsync(String)
+  spec.csharp:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.GetCouponAsync(System.String)
+    name: GetCouponAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetCouponAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.GetCouponAsync(System.String)
+    name: GetCouponAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetCouponAsync_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SmartMenu.Web.Service.CouponService.GetCouponByIdAsync*
+  commentId: Overload:SmartMenu.Web.Service.CouponService.GetCouponByIdAsync
+  href: SmartMenu.Web.Service.CouponService.html#SmartMenu_Web_Service_CouponService_GetCouponByIdAsync_System_Int32_
+  name: GetCouponByIdAsync
+  nameWithType: CouponService.GetCouponByIdAsync
+  fullName: SmartMenu.Web.Service.CouponService.GetCouponByIdAsync
+- uid: SmartMenu.Web.Service.IService.ICouponService.GetCouponByIdAsync(System.Int32)
+  commentId: M:SmartMenu.Web.Service.IService.ICouponService.GetCouponByIdAsync(System.Int32)
+  parent: SmartMenu.Web.Service.IService.ICouponService
+  isExternal: true
+  href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetCouponByIdAsync_System_Int32_
+  name: GetCouponByIdAsync(int)
+  nameWithType: ICouponService.GetCouponByIdAsync(int)
+  fullName: SmartMenu.Web.Service.IService.ICouponService.GetCouponByIdAsync(int)
+  nameWithType.vb: ICouponService.GetCouponByIdAsync(Integer)
+  fullName.vb: SmartMenu.Web.Service.IService.ICouponService.GetCouponByIdAsync(Integer)
+  name.vb: GetCouponByIdAsync(Integer)
+  spec.csharp:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.GetCouponByIdAsync(System.Int32)
+    name: GetCouponByIdAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetCouponByIdAsync_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.GetCouponByIdAsync(System.Int32)
+    name: GetCouponByIdAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_GetCouponByIdAsync_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SmartMenu.Web.Service.CouponService.UpdateCouponsAsync*
+  commentId: Overload:SmartMenu.Web.Service.CouponService.UpdateCouponsAsync
+  href: SmartMenu.Web.Service.CouponService.html#SmartMenu_Web_Service_CouponService_UpdateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  name: UpdateCouponsAsync
+  nameWithType: CouponService.UpdateCouponsAsync
+  fullName: SmartMenu.Web.Service.CouponService.UpdateCouponsAsync
+- uid: SmartMenu.Web.Service.IService.ICouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  commentId: M:SmartMenu.Web.Service.IService.ICouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  parent: SmartMenu.Web.Service.IService.ICouponService
+  href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_UpdateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  name: UpdateCouponsAsync(CouponDto)
+  nameWithType: ICouponService.UpdateCouponsAsync(CouponDto)
+  fullName: SmartMenu.Web.Service.IService.ICouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+  spec.csharp:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+    name: UpdateCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_UpdateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  - name: (
+  - uid: SmartMenu.Web.Models.CouponDto
+    name: CouponDto
+    href: SmartMenu.Web.Models.CouponDto.html
+  - name: )
+  spec.vb:
+  - uid: SmartMenu.Web.Service.IService.ICouponService.UpdateCouponsAsync(SmartMenu.Web.Models.CouponDto)
+    name: UpdateCouponsAsync
+    href: SmartMenu.Web.Service.IService.ICouponService.html#SmartMenu_Web_Service_IService_ICouponService_UpdateCouponsAsync_SmartMenu_Web_Models_CouponDto_
+  - name: (
+  - uid: SmartMenu.Web.Models.CouponDto
+    name: CouponDto
+    href: SmartMenu.Web.Models.CouponDto.html
+  - name: )

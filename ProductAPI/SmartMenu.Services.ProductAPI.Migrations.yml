@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ProductAPI.Migrations
+  commentId: N:SmartMenu.Services.ProductAPI.Migrations
+  id: SmartMenu.Services.ProductAPI.Migrations
+  children:
+  - SmartMenu.Services.ProductAPI.Migrations.AddCategoryTable
+  - SmartMenu.Services.ProductAPI.Migrations.SeedProductTable
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ProductAPI.Migrations
+  nameWithType: SmartMenu.Services.ProductAPI.Migrations
+  fullName: SmartMenu.Services.ProductAPI.Migrations
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ProductAPI
+references:
+- uid: SmartMenu.Services.ProductAPI.Migrations.SeedProductTable
+  commentId: T:SmartMenu.Services.ProductAPI.Migrations.SeedProductTable
+  href: SmartMenu.Services.ProductAPI.Migrations.SeedProductTable.html
+  name: SeedProductTable
+  nameWithType: SeedProductTable
+  fullName: SmartMenu.Services.ProductAPI.Migrations.SeedProductTable
+- uid: SmartMenu.Services.ProductAPI.Migrations.AddCategoryTable
+  commentId: T:SmartMenu.Services.ProductAPI.Migrations.AddCategoryTable
+  href: SmartMenu.Services.ProductAPI.Migrations.AddCategoryTable.html
+  name: AddCategoryTable
+  nameWithType: AddCategoryTable
+  fullName: SmartMenu.Services.ProductAPI.Migrations.AddCategoryTable

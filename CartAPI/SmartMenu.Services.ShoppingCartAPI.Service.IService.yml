@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Service.IService
+  id: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  children:
+  - SmartMenu.Services.ShoppingCartAPI.Service.IService.ICouponService
+  - SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ShoppingCartAPI
+references:
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.IService.ICouponService
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Service.IService.ICouponService
+  parent: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  href: SmartMenu.Services.ShoppingCartAPI.Service.IService.ICouponService.html
+  name: ICouponService
+  nameWithType: ICouponService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.IService.ICouponService
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+  parent: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  href: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.html
+  name: IProductService
+  nameWithType: IProductService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService
+- uid: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Service.IService
+  href: SmartMenu.html
+  name: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  fullName: SmartMenu.Services.ShoppingCartAPI.Service.IService
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service
+    name: Service
+    href: SmartMenu.Services.ShoppingCartAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.ShoppingCartAPI.Service.IService.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service
+    name: Service
+    href: SmartMenu.Services.ShoppingCartAPI.Service.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Service.IService
+    name: IService
+    href: SmartMenu.Services.ShoppingCartAPI.Service.IService.html

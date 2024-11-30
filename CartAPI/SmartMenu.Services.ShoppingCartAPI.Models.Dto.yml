@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  id: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  children:
+  - SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDetailsDto
+  - SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto
+  - SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartHeaderDto
+  - SmartMenu.Services.ShoppingCartAPI.Models.Dto.CategoryDto
+  - SmartMenu.Services.ShoppingCartAPI.Models.Dto.CouponDto
+  - SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto
+  - SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto
+  langs:
+  - csharp
+  - vb
+  name: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  type: Namespace
+  assemblies:
+  - SmartMenu.Services.ShoppingCartAPI
+references:
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDetailsDto
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDetailsDto
+  href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDetailsDto.html
+  name: CartDetailsDto
+  nameWithType: CartDetailsDto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDetailsDto
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto
+  parent: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto.html
+  name: CartDto
+  nameWithType: CartDto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartHeaderDto
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartHeaderDto
+  parent: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartHeaderDto.html
+  name: CartHeaderDto
+  nameWithType: CartHeaderDto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartHeaderDto
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CategoryDto
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Models.Dto.CategoryDto
+  parent: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CategoryDto.html
+  name: CategoryDto
+  nameWithType: CategoryDto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CategoryDto
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CouponDto
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Models.Dto.CouponDto
+  href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CouponDto.html
+  name: CouponDto
+  nameWithType: CouponDto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto.CouponDto
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto
+  parent: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto.html
+  name: ProductDto
+  nameWithType: ProductDto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ProductDto
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto
+  commentId: T:SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto
+  href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html
+  name: ResponseDto
+  nameWithType: ResponseDto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto
+- uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  commentId: N:SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  href: SmartMenu.html
+  name: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  nameWithType: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  fullName: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+  spec.csharp:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Models
+    name: Models
+    href: SmartMenu.Services.ShoppingCartAPI.Models.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+    name: Dto
+    href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.html
+  spec.vb:
+  - uid: SmartMenu
+    name: SmartMenu
+    href: SmartMenu.html
+  - name: .
+  - uid: SmartMenu.Services
+    name: Services
+    href: SmartMenu.Services.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI
+    name: ShoppingCartAPI
+    href: SmartMenu.Services.ShoppingCartAPI.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Models
+    name: Models
+    href: SmartMenu.Services.ShoppingCartAPI.Models.html
+  - name: .
+  - uid: SmartMenu.Services.ShoppingCartAPI.Models.Dto
+    name: Dto
+    href: SmartMenu.Services.ShoppingCartAPI.Models.Dto.html
