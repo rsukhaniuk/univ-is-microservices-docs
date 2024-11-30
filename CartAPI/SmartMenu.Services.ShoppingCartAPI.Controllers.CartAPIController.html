@@ -681,7 +681,7 @@ public class CartAPIController : ControllerBase</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/rsukhaniuk/univ-is-microservices/blob/ocelot/SmartMenu.Services.ShoppingCartAPI/Controllers/CartAPIController.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Controllers.CartAPIController.html">CartAPIController</a> class.</p>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Controllers.CartAPIController.html">CartAPIController</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -691,16 +691,16 @@ public class CartAPIController : ControllerBase</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>db</code> <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Data.AppDbContext.html">AppDbContext</a></dt>
+    <dt><code>db</code> <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Data.AppDbContext.html">AppDbContext</a></dt>
     <dd><p>The database context.</p>
 </dd>
     <dt><code>mapper</code> <span class="xref">IMapper</span></dt>
     <dd><p>The AutoMapper instance.</p>
 </dd>
-    <dt><code>productService</code> <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.html">IProductService</a></dt>
+    <dt><code>productService</code> <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Service.IService.IProductService.html">IProductService</a></dt>
     <dd><p>The product service.</p>
 </dd>
-    <dt><code>couponService</code> <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Service.IService.ICouponService.html">ICouponService</a></dt>
+    <dt><code>couponService</code> <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Service.IService.ICouponService.html">ICouponService</a></dt>
     <dd><p>The coupon service.</p>
 </dd>
     <dt><code>configuration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration">IConfiguration</a></dt>
@@ -741,7 +741,7 @@ public Task&lt;object&gt; ApplyCoupon(CartDto cartDto)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>cartDto</code> <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto.html">CartDto</a></dt>
+    <dt><code>cartDto</code> <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto.html">CartDto</a></dt>
     <dd><p>The cart data transfer object.</p>
 </dd>
   </dl>
@@ -749,7 +749,7 @@ public Task&lt;object&gt; ApplyCoupon(CartDto cartDto)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
-    <dd><p>A <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
+    <dd><p>A <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
 </dd>
   </dl>
 
@@ -781,7 +781,7 @@ public Task&lt;ResponseDto&gt; CartUpsert(CartDto cartDto)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>cartDto</code> <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto.html">CartDto</a></dt>
+    <dt><code>cartDto</code> <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.CartDto.html">CartDto</a></dt>
     <dd><p>The cart data transfer object.</p>
 </dd>
   </dl>
@@ -789,7 +789,7 @@ public Task&lt;ResponseDto&gt; CartUpsert(CartDto cartDto)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>A <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
+    <dd><p>A <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
 </dd>
   </dl>
 
@@ -829,7 +829,7 @@ public Task&lt;ResponseDto&gt; ClearCart(string userId)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>A <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
+    <dd><p>A <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
 </dd>
   </dl>
 
@@ -869,7 +869,7 @@ public Task&lt;ResponseDto&gt; DecreaseQuantity(int cartDetailsId)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>A <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
+    <dd><p>A <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
 </dd>
   </dl>
 
@@ -909,7 +909,7 @@ public Task&lt;ResponseDto&gt; GetCart(string userId)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>A <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> containing the cart details.</p>
+    <dd><p>A <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> containing the cart details.</p>
 </dd>
   </dl>
 
@@ -949,7 +949,7 @@ public Task&lt;ResponseDto&gt; IncreaseQuantity(int cartDetailsId)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>A <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
+    <dd><p>A <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
 </dd>
   </dl>
 
@@ -989,7 +989,7 @@ public Task&lt;ResponseDto&gt; RemoveCart(int cartDetailsId)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a>&gt;</dt>
-    <dd><p>A <a class="xref" href="../api/cart/SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
+    <dd><p>A <a class="xref" href="SmartMenu.Services.ShoppingCartAPI.Models.Dto.ResponseDto.html">ResponseDto</a> indicating the result of the operation.</p>
 </dd>
   </dl>
 
