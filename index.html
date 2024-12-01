@@ -91,6 +91,43 @@
 <h3 id="-shopping-cart-api">🛍️ <a href="CartAPI/SmartMenu.Services.CartAPI.html">Shopping Cart API</a></h3>
 <p>Deliver a seamless shopping cart experience, ensuring smooth transactions for your customers.</p>
 <hr>
+<h2 id="-tech-stack">🛠️ Tech Stack</h2>
+<h3 id="backend"><strong>Backend</strong></h3>
+<ul>
+<li><strong>Framework:</strong> .NET Core Web API (C#) with a Microservices Architecture</li>
+<li><strong>Microservices:</strong>
+Each microservice operates independently and has its own dedicated database to ensure a clear separation of concerns and improve scalability:
+<ul>
+<li><strong>Auth Service:</strong> Manages authentication and authorization.<br>
+<a href="https://dbdiagram.io/d/SmartMenu_Auth-670f628a97a66db9a325b7c6">Database Schema</a></li>
+<li><strong>Order Service:</strong> Handles order processing and status updates.<br>
+<a href="https://dbdiagram.io/d/SmartMenu_Orders-670f62e597a66db9a325c66e">Database Schema</a></li>
+<li><strong>Product Service:</strong> Manages products and categories.<br>
+<a href="https://dbdiagram.io/d/SmartMenu_Products-673d29b6e9daa85aca094e8d">Database Schema</a></li>
+<li><strong>Shopping Cart Service:</strong> Provides shopping cart functionality.<br>
+<a href="https://dbdiagram.io/d/SmartMenu_ShoppingCart-670f63df97a66db9a325edf7">Database Schema</a></li>
+<li><strong>Coupon Service:</strong> Handles discount and coupon logic.<br>
+<a href="https://dbdiagram.io/d/SmartMenu_Coupons-674a9ca0e9daa85aca313fc4">Database Schema</a></li>
+</ul>
+</li>
+</ul>
+<p>Each database is designed to store only the data relevant to its respective microservice, avoiding unnecessary data coupling and ensuring better fault isolation.</p>
+<ul>
+<li><strong>Database:</strong> SQL Server 2022</li>
+<li><strong>Communication:</strong> REST API</li>
+</ul>
+<h3 id="frontend"><strong>Frontend</strong></h3>
+<ul>
+<li><strong>Framework:</strong> ASP.NET Core MVC (C#)</li>
+<li><strong>Features:</strong>
+<ul>
+<li>Razor views for dynamic and interactive HTML rendering.</li>
+<li>Integration with REST API for backend communication.</li>
+<li>Responsive design for desktop and mobile platforms.</li>
+</ul>
+</li>
+</ul>
+<hr>
 <blockquote>
 <p><strong>SmartMenu Documentation</strong>: Simplifying your journey towards streamlined development!</p>
 </blockquote>
